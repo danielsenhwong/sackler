@@ -40,7 +40,7 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 		'prodid':	'-//Sackler Website Calendar, parsed (Daniel Senh Wong)//sackler.tufts.edu//EN', # Must be unique, per iCal standard
 		'version':	'2.0', # Must be 2.0 per iCal standard
 		'calscale':	'GREGORIAN',
-		'method':	'publish',
+		'method':	'PUBLISH',
 		'x-wr-calname':	'Sackler Website Calendar',
 		'x-wr-timezone':	'America/New_York',
 		'x-wr-caldesc':	 'This is the iCal-formatted version of the calendar presented on the Tufts Sackler school website (sackler.tufts.edu). It is generated every morning at 4 AM by a Python script that reads the calendar\'s RSS feed, then retrieves the event details from the individual event pages.\n\nThe script feeding this calendar was written and is maintained by Daniel Wong (daniel_s.wong@tufts.edu / danielsenhwong@gmail.com), and not by the Sackler Dean\'s Office. Please direct any questions, suggestions, or requests to me directly.',
