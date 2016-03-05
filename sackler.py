@@ -68,7 +68,6 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 				pass
 			else: # Once one works, exit the loop
 				dtstart = datetime(*start_dt[:6], tzinfo=tz_et) # Give the event a start date and time
-				e.add('dtstart', dtstart) # Add the start time to the Event() object
 				break
 		
 		end_str = event['summary'].split(';') # Break up the time string to find the end time
@@ -81,9 +80,6 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 			dtend = datetime(*end_dt[:6], tzinfo=tz_et) # Has its own date
 		except IndexError: # Events without an end time or date have another
 			dtend = None # Has nothing
-		finally: # In any case, put it all together
-			if dtend:
-				e.add('dtend', dtend) # Give the event an end date and time if there is anything to add
 
 		page = requests.get(event['link']) # Now grab more details from the event page
 		try: # Try to find the div containing the event details
@@ -155,6 +151,15 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 		except AttributeError: # In case some pages can't be loaded or don't have the vevent div, skip
 			pass
 
+		if dtend:
+			dtdelta = dtend - dtstart # Check the start and end times, and convert to an all-day event if applicable
+			if dtdelta.days > 0:
+				dtstart = dtstart.date() # Convert to a date only
+				dtend = dtend.date() # Convert to a date only
+
+		e.add('dtstart', dtstart) # Add the start time to the Event() object
+		if dtend:
+			e.add('dtend', dtend) # Give the event an end date and time if there is anything to add
 		e.add('summary', summary_str) # Give the event a title
 		e.add('description', '%s%s' % (description, event['link'])) # Put the event page URL in the description of the event
 

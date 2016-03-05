@@ -3,8 +3,8 @@ VERSION:2.0
 PRODID:-//Sackler Calendar\, parsed//sackler.tufts.edu//
 BEGIN:VEVENT
 SUMMARY:Call for Artwork: Cambridge Science Festival Sci-Art Exhibit
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160223T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160321T120000
+DTSTART;VALUE=DATE:20160223
+DTEND;VALUE=DATE:20160321
 DESCRIPTION:\nContact: Lisa Hawver\nLisa.Hawver@tufts.edu\n\nhttp://sackle
  r.tufts.edu/Calendar/2016/03/21/Call-for-Artwork-Cambridge-Science-Festiva
  l-SciArt-Exhibit.aspx
