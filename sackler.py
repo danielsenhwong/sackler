@@ -34,32 +34,30 @@ def GrabPage(url):
 		return vevent
 
 def ReadRSS(output_path="/var/www/sackler/public"):
-	sackler_rss_url = 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={F3B13FCF-27A3-44A2-A1B9-4672F1034B91}' # Sackler calendar RSS feed URL
-
-	#feed = feedparser.parse(sackler_rss_url) # Parse the feed
-
-	#events = feed['items'] # Read the events into a list variable
-
-	events = GrabRSS(sackler_rss_url) # Grab events from the RSS
-
 	cal = Calendar() # Initialize a blank calendar
 
 	calendar_properties = {
-		
+		'prodid':	'-//Sackler Website Calendar, parsed (Daniel Senh Wong)//sackler.tufts.edu//EN', # Must be unique, per iCal standard
+		'version':	'2.0', # Must be 2.0 per iCal standard
+		'calscale':	'GREGORIAN',
+		'method':	'publish',
+		'x-wr-calname':	'Sackler Website Calendar',
+		'x-wr-timezone':	'America/New_York',
+		'x-wr-caldesc':	 'This is the iCal-formatted version of the calendar presented on the Tufts Sackler school website (sackler.tufts.edu). It is generated every morning at 4 AM by a Python script that reads the calendar\'s RSS feed, then retrieves the event details from the individual event pages.\n\nThe script feeding this calendar was written and is maintained by Daniel Wong (daniel_s.wong@tufts.edu / danielsenhwong@gmail.com), and not by the Sackler Dean\'s Office. Please direct any questions, suggestions, or requests to me directly.',
 	}
-	cal.add('prodid', '-//Sackler Website Calendar, parsed (Daniel Senh Wong)//sackler.tufts.edu//EN') # For standards compliance
-	cal.add('version', '2.0') # For standards compliance
-	cal.add('calscale', 'GREGORIAN')
-	cal.add('method', 'PUBLISH')
-	cal.add('x-wr-calname', 'Sackler Website Calendar')
-	cal.add('x-wr-timezone', 'America/New_York')
-	cal.add('x-wr-caldesc', 'This is the iCal-formatted version of the calendar presented on the Tufts Sackler school website (sackler.tufts.edu). It is generated every morning at 4 AM by a Python script that reads the calendar\'s RSS feed, then retrieves the event details from the individual event pages.\n\nThe script feeding this calendar was written and is maintained by Daniel Wong (daniel_s.wong@tufts.edu / danielsenhwong@gmail.com), and not by the Sackler Dean\'s Office. Please direct any questions, suggestions, or requests to me directly.')
+
+	for field, value in calendar_properties.items():
+		cal.add(field, value)
 
 	START_DATE_FORMATS = [ # Different events have different formats
 		'%B %d, %Y<br />%I:%M %p ', # Start and end the same day
 		'%B %d, %Y %I:%M %p ', # Multiple day event
 		'%B %d, %Y<br />%I:%M %p<br />', # No end time
 	]
+
+	sackler_rss_url = 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={F3B13FCF-27A3-44A2-A1B9-4672F1034B91}' # Sackler calendar RSS feed URL
+
+	events = GrabRSS(sackler_rss_url) # Grab events from the RSS
 
 	for event in events: # Loop through each individual event found
 		tz_et = timezone('America/New_York') # Set our timezone
@@ -69,7 +67,6 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 		summary_str = event['title'] # Start with the given title for the event
 
 		start_str = event['summary'].split('&')[0] # Break up the time string to find the start time
-
 		for date_format in START_DATE_FORMATS:
 			try: # Try each format
 				start_dt = strptime(start_str, date_format)
@@ -80,7 +77,6 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 				break
 		
 		end_str = event['summary'].split(';') # Break up the time string to find the end time
-
 		try: # Events starting and ending on the same day have one format
 			end_dt = strptime(end_str[1], ' %I:%M %p<br />')
 			dtend = datetime(start_dt[0], start_dt[1], start_dt[2], *end_dt[3:5], tzinfo=tz_et) # Date information is missing, so borrow from start
@@ -94,7 +90,7 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 		try: # Try to find the div containing the event details
 			vevent = BeautifulSoup(page.text, 'html.parser').find(class_='vevent') # Just parse the div that has the event info
 			eg = vevent.find_all(class_='event-group') # Find the event-group divs
-			
+
 			try: # If there is event info, see if there is a speaker
 				speaker =  vevent.find_all(class_='event-speaker')[0].h4.text.strip()
 			except IndexError:
@@ -156,7 +152,6 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 		
 			e.add('location', location) # Pass the location, if there is one, to the iCal event
 
-
 		except AttributeError: # In case some pages can't be loaded or don't have the vevent div, skip
 			pass
 
@@ -173,7 +168,6 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 		e.add('description', '%s%s' % (description, event['link'])) # Put the event page URL in the description of the event
 
 		cal.add_component(e) # Add the event to the calendar
-
 	
 	# Export resulting calendar
 	result = cal.to_ical()
