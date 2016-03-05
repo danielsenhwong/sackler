@@ -7,21 +7,39 @@
 # Once done, take this data and populate a new Google Calendar
 
 # Import necessary libraries
-def ReadRSS():
-	import feedparser
-	import requests
-	from bs4 import BeautifulSoup
-	from icalendar import Calendar, Event
-	from datetime import datetime
-	from pytz import timezone
-	import pytz
-	from time import strptime, strftime
 
+import feedparser
+import requests
+from bs4 import BeautifulSoup
+from icalendar import Calendar, Event
+from datetime import datetime
+from pytz import timezone
+import pytz
+from time import strptime, strftime
+
+def GrabRSS(url="http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={F3B13FCF-27A3-44A2-A1B9-4672F1034B91}"):
+	feed = feedparser.parse(url) # Parse the feed
+	events = feed['items'] # Read the events into a list variable
+	return events
+
+def GrabPage(url):
+	page = requests.get(url) # Grab HTML
+	vevent = None
+	try:
+		vevent = BeautifulSoup(page.text, 'html.parser').find(class_='vevent')
+	except IndexError:
+		pass
+	finally:
+		return vevent
+
+def ReadRSS(output_path="/var/www/sackler/public"):
 	sackler_rss_url = 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={F3B13FCF-27A3-44A2-A1B9-4672F1034B91}' # Sackler calendar RSS feed URL
 
-	feed = feedparser.parse(sackler_rss_url) # Parse the feed
+	#feed = feedparser.parse(sackler_rss_url) # Parse the feed
 
-	events = feed['items'] # Read the events into a list variable
+	#events = feed['items'] # Read the events into a list variable
+
+	events = GrabRSS(sackler_rss_url) # Grab events from the RSS
 
 	cal = Calendar() # Initialize a blank calendar
 	cal.add('prodid', '-//Sackler Calendar, parsed//sackler.tufts.edu//') # For standards compliance
@@ -76,20 +94,20 @@ def ReadRSS():
 			except IndexError:
 				speaker = None
 			finally:
-				if speaker:
-					description = '%s\n%s speaking' % (description, speaker)
+				if speaker is not None:
+					description = '%sSpeaker(s): %s\n\n' % (description, speaker)
 
 			indicies = list(range(-3,0)) # Make a list of reverse indices
 			description_original = None
 			room = None
 			contact = None
-			location = None
+			location = ''
 			loc = None
 			for i in indicies:
 				try: # See if there is a room number and/or contact info
 					check_string = eg[i].contents[1].text
 					if check_string == 'Contact Information':
-						contact = eg[i].contents[3].text.strip()
+						contact = eg[i].contents[3].text.replace('\t', '').replace('\n\r\n', '\n').strip() # Remove all \r and \n from the ends, \t from the middle if there are any
 					elif check_string == 'Directions & Parking':
 						room = str(eg[i].contents[2]).strip()
 					elif check_string == 'Description':
@@ -100,9 +118,9 @@ def ReadRSS():
 					if room:
 						location = '(%s)' % room
 					if description_original:
-						description = description_original
+						description = '%s%s\n\n' % (description, description_original)
 					if contact:
-						description = '%s\n\nContact: %s' % (description, contact)
+						description = '%sContact: %s\n\n' % (description, contact)
 
 			try: # If there is event info, check to see if there is location info
 				loc = ''.join(str(l).strip() for l in vevent.find_all(class_='location')[0].span.contents).replace('<br/>',', ') # try and find location information and make it presentable
@@ -118,31 +136,16 @@ def ReadRSS():
 		except AttributeError: # In case some pages can't be loaded or don't have the vevent div, skip
 			pass
 
-		e.add('description', '%s\n\n%s' % (description, event['link'])) # Put the event page URL in the description of the event
+		e.add('description', '%s%s' % (description, event['link'])) # Put the event page URL in the description of the event
 
 		cal.add_component(e) # Add the event to the calendar
 
 	
 	# Export resulting calendar
 	result = cal.to_ical()
-	f = open('public/calendar.ics', 'wb')
+	destination = '%s/%s' % (output_path, 'calendar.ics')
+	f = open(destination, 'wb')
 	f.write(result)
 	f.close()
 
 	return result
-
-		
-
-#for event in events: # Walk through each event in the list
-#	url = event['link'] # Grab the URL
-#	page = requests.get(url) # Grab the HTML of the event page
-#	html = BeautifulSoup(event_html.text).find_all('div', id='primary', class_='vevent')[0]
-#	e_title = html.h2.string
-#	e_date = html.span.contents # need to process this list
-#	divs = []
-#	for part in html.find_all(class_='event-group'):
-#		if part.find(class_='geo'):
-#			continue
-#		else:
-#			divs.append(part)
-	

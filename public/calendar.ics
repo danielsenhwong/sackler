@@ -5,52 +5,53 @@ BEGIN:VEVENT
 SUMMARY:Call for Artwork: Cambridge Science Festival Sci-Art Exhibit
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160223T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160321T120000
-DESCRIPTION:\n\nContact: Lisa Hawver\nLisa.Hawver@tufts.edu\nhttp://sackle
- r.tufts.edu/Calendar/2016/03/21/Call-for-Artwork-Cambridge-Science-Festiva
- l-SciArt-Exhibit.aspx
-LOCATION:None
+DESCRIPTION:Contact: Lisa Hawver\nLisa.Hawver@tufts.edu\n\nhttp://sackler.
+ tufts.edu/Calendar/2016/03/21/Call-for-Artwork-Cambridge-Science-Festival-
+ SciArt-Exhibit.aspx
+LOCATION:
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Frank Scangarello
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160307T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160307T130000
-DESCRIPTION:\nFrank Scangarello speaking\nhttp://sackler.tufts.edu/Calenda
- r/2016/03/07/Immunology-Student-Talks-Frank-Scangarello.aspx
+DESCRIPTION:Speaker(s): Frank Scangarello\n\nhttp://sackler.tufts.edu/Cale
+ ndar/2016/03/07/Immunology-Student-Talks-Frank-Scangarello.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Eddie Goldberg Symposium
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160307T153000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160307T170000
-DESCRIPTION:\nJonathan King\, PhD & Andrew Camilli\, PhD speaking\n\nConta
- ct: Molly Kyle\nmolly.kyle@tufts.edu\n				617-636-3451\nhttp://sackler.tuf
- ts.edu/Calendar/2016/03/07/Eddie-Goldberg-Symposium.aspx
+DESCRIPTION:Speaker(s): Jonathan King\, PhD & Andrew Camilli\, PhD\n\nCont
+ act: Molly Kyle\nmolly.kyle@tufts.edu\n617-636-3451\n\nhttp://sackler.tuft
+ s.edu/Calendar/2016/03/07/Eddie-Goldberg-Symposium.aspx
 LOCATION:(Behrakis Auditorium) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Sara Roggensack
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160308T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160308T130000
-DESCRIPTION:\nSara Roggensack speaking\n\nContact: Microbiology \n\n				61
- 7-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03/08/Micro-Research-Re
- port-Sara-Roggensack.aspx
+DESCRIPTION:Speaker(s): Sara Roggensack\n\nContact: Microbiology \n617-636
+ -3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/08/Micro-Research-Repor
+ t-Sara-Roggensack.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Seminar Series - Mark Beenhakker
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160309T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160309T110000
-DESCRIPTION:\nMark Beenhakker\, PhD speaking\n\nContact: Alison Hochler\na
- lison.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calend
- ar/2016/03/09/Neuroscience-Seminar-Series-Mark-Beenhakker.aspx
+DESCRIPTION:Speaker(s): Mark Beenhakker\, PhD\n\nContact: Alison Hochler\n
+ alison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calenda
+ r/2016/03/09/Neuroscience-Seminar-Series-Mark-Beenhakker.aspx
 LOCATION:(Sackler B09) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gene\, Immuno\, Micro Seminar - Ewelina Bolcun-Filas
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160309T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160309T130000
-DESCRIPTION:\nEwelina Bolcun-Filas\, PhD speaking\nhttp://sackler.tufts.ed
- u/Calendar/2016/03/09/Gene-Immuno-Micro-Seminar-Ewelina-BolcunFilas.aspx
+DESCRIPTION:Speaker(s): Ewelina Bolcun-Filas\, PhD\n\nhttp://sackler.tufts
+ .edu/Calendar/2016/03/09/Gene-Immuno-Micro-Seminar-Ewelina-BolcunFilas.asp
+ x
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -63,55 +64,82 @@ DESCRIPTION:<p>Thinking about writing a systematic review?  Curious about
  types of high-level research reviews.  Topics covered include: elements of
   a systematic review\, protocols\, resources\, timelines\, and suggested d
  atabases.</p><a href="http://hirshlibrary.tufts.edu/events">Register for t
- his workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.edu\nhttp
- ://sackler.tufts.edu/Calendar/2016/03/09/Library-Workshop-Systematic-Revie
- ws-Laying-the-Groundwork.aspx
+ his workshop.</a>\n\n<p>Thinking about writing a systematic review?  Curio
+ us about what the process entails?  Not sure what a systematic review is? 
+  In this workshop\, we will explore systematic reviews\, meta-analyses\, a
+ nd other types of high-level research reviews.  Topics covered include: el
+ ements of a systematic review\, protocols\, resources\, timelines\, and su
+ ggested databases.</p><a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/09/Library-Workshop-Syste
+ matic-Reviews-Laying-the-Groundwork.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Seminar - Careers in Commerical Sciences
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160310T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160310T130000
-DESCRIPTION:<p>Join us for insights into a often overlooked but very rewar
- ding career path available for PhDs: Careers in Commercial Sciences presen
- ted by Cliff Ramsdell\, PhD: Market Development Manager for flow cytometry
-  for North America from Thermo Fisher Scientific.</p><p>Lunch will be prov
- ided by Thermo Fisher Scientific</p><p>About the speaker:<br/>\nCliff Rams
- dell is the Market Development Manager for Flow Cytometry in the Bioscienc
- es Division of Thermo Fisher Scientific in Carlsbad\, CA\, USA. Cliff has 
- a background in immunology and genetics\, and has presented numerous semin
- ars and trainings over a range of applications. Prior to joining Thermo Fi
- sher Scientific\, Cliff spent over 13 years as a bench scientist\, which i
- ncludes a post-doctoral position in immunology at the University of North 
- Carolina – Chapel Hill. With a research career that had a significant fo
- cus of developing new tools for research applications. Cliff has joined Th
- ermo Fisher Scientific to help deliver unique solutions to aid flow cytome
- try researchers in the US and Canada.</p><p>Please note: Live streaming of
-  this seminar via WebEx will be available\, please register for the WebEx 
- only ticket type and you will be sent login information 2 hours prior to t
- he seminar.</p><p>This seminar is being held in the quiet portion of Sackl
- er library. Please be courteous and enter and exit the seminar quietly! Th
- ank you!</p><p><a href="http://www.tuftspda.wordpress.com/register" title=
- "Registration">Register for event</a> </p>\n\nContact: Ania Wronski\nanna.
- wronski@tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03/10/Seminar-Ca
- reers-in-Commerical-Sciences.aspx
+DESCRIPTION:Speaker(s): Cliff Ramsdell\, PhD\n\n<p>Join us for insights in
+ to a often overlooked but very rewarding career path available for PhDs: C
+ areers in Commercial Sciences presented by Cliff Ramsdell\, PhD: Market De
+ velopment Manager for flow cytometry for North America from Thermo Fisher 
+ Scientific.</p><p>Lunch will be provided by Thermo Fisher Scientific</p><p
+ >About the speaker:<br/>\nCliff Ramsdell is the Market Development Manager
+  for Flow Cytometry in the Biosciences Division of Thermo Fisher Scientifi
+ c in Carlsbad\, CA\, USA. Cliff has a background in immunology and genetic
+ s\, and has presented numerous seminars and trainings over a range of appl
+ ications. Prior to joining Thermo Fisher Scientific\, Cliff spent over 13 
+ years as a bench scientist\, which includes a post-doctoral position in im
+ munology at the University of North Carolina – Chapel Hill. With a resea
+ rch career that had a significant focus of developing new tools for resear
+ ch applications. Cliff has joined Thermo Fisher Scientific to help deliver
+  unique solutions to aid flow cytometry researchers in the US and Canada.<
+ /p><p>Please note: Live streaming of this seminar via WebEx will be availa
+ ble\, please register for the WebEx only ticket type and you will be sent 
+ login information 2 hours prior to the seminar.</p><p>This seminar is bein
+ g held in the quiet portion of Sackler library. Please be courteous and en
+ ter and exit the seminar quietly! Thank you!</p><p><a href="http://www.tuf
+ tspda.wordpress.com/register" title="Registration">Register for event</a> 
+ </p>\n\n<p>Join us for insights into a often overlooked but very rewarding
+  career path available for PhDs: Careers in Commercial Sciences presented 
+ by Cliff Ramsdell\, PhD: Market Development Manager for flow cytometry for
+  North America from Thermo Fisher Scientific.</p><p>Lunch will be provided
+  by Thermo Fisher Scientific</p><p>About the speaker:<br/>\nCliff Ramsdell
+  is the Market Development Manager for Flow Cytometry in the Biosciences D
+ ivision of Thermo Fisher Scientific in Carlsbad\, CA\, USA. Cliff has a ba
+ ckground in immunology and genetics\, and has presented numerous seminars 
+ and trainings over a range of applications. Prior to joining Thermo Fisher
+  Scientific\, Cliff spent over 13 years as a bench scientist\, which inclu
+ des a post-doctoral position in immunology at the University of North Caro
+ lina – Chapel Hill. With a research career that had a significant focus 
+ of developing new tools for research applications. Cliff has joined Thermo
+  Fisher Scientific to help deliver unique solutions to aid flow cytometry 
+ researchers in the US and Canada.</p><p>Please note: Live streaming of thi
+ s seminar via WebEx will be available\, please register for the WebEx only
+  ticket type and you will be sent login information 2 hours prior to the s
+ eminar.</p><p>This seminar is being held in the quiet portion of Sackler l
+ ibrary. Please be courteous and enter and exit the seminar quietly! Thank 
+ you!</p><p><a href="http://www.tuftspda.wordpress.com/register" title="Reg
+ istration">Register for event</a> </p>\n\nContact: Ania Wronski\nanna.wron
+ ski@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/10/Seminar-Care
+ ers-in-Commerical-Sciences.aspx
 LOCATION:(Sackler 604) 145 Harrison Ave\, Boston MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Genetics Student Talks - Jaymes Farrell
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160310T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160310T130000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/03/10/Genetics-Studen
- t-Talks-Jaymes-Farrell.aspx
+DESCRIPTION:http://sackler.tufts.edu/Calendar/2016/03/10/Genetics-Student-
+ Talks-Jaymes-Farrell.aspx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Seth Vogel & Molly Hodul
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160310T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160310T130000
-DESCRIPTION:\nSeth Vogel (Yang Lab) & Molly Hodul (Juo Lab) speaking\n\nCo
- ntact: Alison Hochler\nalison.hochler@tufts.edu\n				617-636-3857\nhttp://
- sackler.tufts.edu/Calendar/2016/03/10/Neuroscience-Research-Series-Seth-Vo
- gel-Molly-Hodul.aspx
+DESCRIPTION:Speaker(s): Seth Vogel (Yang Lab) & Molly Hodul (Juo Lab)\n\nC
+ ontact: Alison Hochler\nalison.hochler@tufts.edu\n617-636-3857\n\nhttp://s
+ ackler.tufts.edu/Calendar/2016/03/10/Neuroscience-Research-Series-Seth-Vog
+ el-Molly-Hodul.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -124,60 +152,66 @@ DESCRIPTION:<p>Thinking about writing a systematic review?  Curious about
  types of high-level research reviews.  Topics covered include: elements of
   a systematic review\, protocols\, resources\, timelines\, and suggested d
  atabases.</p><a href="http://hirshlibrary.tufts.edu/events">Register for t
- his workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.edu\nhttp
- ://sackler.tufts.edu/Calendar/2016/03/11/Library-Workshop-Systematic-Revie
- ws-Laying-the-Groundwork.aspx
+ his workshop.</a>\n\n<p>Thinking about writing a systematic review?  Curio
+ us about what the process entails?  Not sure what a systematic review is? 
+  In this workshop\, we will explore systematic reviews\, meta-analyses\, a
+ nd other types of high-level research reviews.  Topics covered include: el
+ ements of a systematic review\, protocols\, resources\, timelines\, and su
+ ggested databases.</p><a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/11/Library-Workshop-Syste
+ matic-Reviews-Laying-the-Groundwork.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Keith Eidell
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160314T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160314T130000
-DESCRIPTION:\nKeith Eidell speaking\nhttp://sackler.tufts.edu/Calendar/201
- 6/03/14/Immunology-Student-Talks-Keith-Eidell.aspx
+DESCRIPTION:Speaker(s): Keith Eidell\n\nhttp://sackler.tufts.edu/Calendar/
+ 2016/03/14/Immunology-Student-Talks-Keith-Eidell.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Thesis Defense - Eleanor Fleming
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160314T140000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160314T160000
-DESCRIPTION:\nEleanor Fleming speaking\n\nContact: Molly Kyle\nmolly.kyle@
- tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03/14/Thesis-Defense-Ele
- anor-Fleming.aspx
+DESCRIPTION:Speaker(s): Eleanor Fleming\n\nContact: Molly Kyle\nmolly.kyle
+ @tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/14/Thesis-Defense-
+ Eleanor-Fleming.aspx
 LOCATION:(Behrakis Auditorium) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Microbiology Department Seminar - Samantha King
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160315T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160315T130000
-DESCRIPTION:\nSamantha King\, PhD speaking\n\nContact: Molly Kyle\nmolly.k
- yle@tufts.edu\n				617-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03
- /15/Microbiology-Department-Seminar-Samantha-King.aspx
+DESCRIPTION:Speaker(s): Samantha King\, PhD\n\nContact: Molly Kyle\nmolly.
+ kyle@tufts.edu\n617-636-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/
+ 15/Microbiology-Department-Seminar-Samantha-King.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Ila Anand
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160315T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160315T130000
-DESCRIPTION:\nIla Anand speaking\n\nContact: Microbiology \n\n				617-636-
- 3451\nhttp://sackler.tufts.edu/Calendar/2016/03/15/Micro-Research-Report-I
- la-Anand.aspx
+DESCRIPTION:Speaker(s): Ila Anand\n\nContact: Microbiology \n617-636-3451\
+ n\nhttp://sackler.tufts.edu/Calendar/2016/03/15/Micro-Research-Report-Ila-
+ Anand.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Tufts Innovation Spotlight
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160315T170000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160315T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/03/15/Tufts-Innovatio
- n-Spotlight.aspx
+DESCRIPTION:http://sackler.tufts.edu/Calendar/2016/03/15/Tufts-Innovation-
+ Spotlight.aspx
 LOCATION:(Abby Lane) 255 Tremont St\, Boston\, MA
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gene\, Immuno\, Micro Seminar - Robert Watson
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160316T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160316T130000
-DESCRIPTION:\nRobert Watson\, PhD\, MPH speaking\nhttp://sackler.tufts.edu
- /Calendar/2016/03/16/Gene-Immuno-Micro-Seminar-Robert-Watson.aspx
+DESCRIPTION:Speaker(s): Robert Watson\, PhD\, MPH\n\nhttp://sackler.tufts.
+ edu/Calendar/2016/03/16/Gene-Immuno-Micro-Seminar-Robert-Watson.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -187,52 +221,65 @@ DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160316T170000
 DESCRIPTION:<p>In this workshop\, we will review the structure of PubMed\;
   planning and executing a search strategy\; narrowing the search results\;
   finding full text\; and exporting citations.</p><a href="http://hirshlibr
- ary.tufts.edu/events">Register for this workshop.</a>\n\nContact: Laura Pa
- vlech\nlaura.pavlech@tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03/
- 16/Library-Workshop-PubMed-The-Basics.aspx
+ ary.tufts.edu/events">Register for this workshop.</a>\n\n<p>In this worksh
+ op\, we will review the structure of PubMed\; planning and executing a sea
+ rch strategy\; narrowing the search results\; finding full text\; and expo
+ rting citations.</p><a href="http://hirshlibrary.tufts.edu/events">Registe
+ r for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.ed
+ u\n\nhttp://sackler.tufts.edu/Calendar/2016/03/16/Library-Workshop-PubMed-
+ The-Basics.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:GSC Career Paths Seminar - Paula Chambers
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160316T170000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160316T180000
-DESCRIPTION:<p>Founder and CEO\, Paula Chambers\, PhD received her PhD in 
- Rhetoric and Composition from Ohio State University. Realizing that academ
- ia was not for her\, Paula formed Versatile PhD\, a web-based socially pos
- itive business. Versatile PhD is a company formed with the goal of helping
-  PhD's across all subjects identify\, prepare for\, and succeed in non-aca
- demic careers. Join us to hear Paula speak about the formation of her comp
- any and what it has to offer for STEM PhD's.</p><p> Additionally\, Tufts p
- ostdoc Sarah Dykstra will describe what events and opportunities Versatile
-  PhD offers in the Boston area.</p>\n\nContact: Christina McGuire\n\n				8
- 608341949\nhttp://sackler.tufts.edu/Calendar/2016/03/16/GSC-Career-Paths-S
- eminar-Paula-Chambers.aspx
+DESCRIPTION:Speaker(s): Paula Chambers\, PhD - CEO of Versatile PhD\n\n<p>
+ Founder and CEO\, Paula Chambers\, PhD received her PhD in Rhetoric and Co
+ mposition from Ohio State University. Realizing that academia was not for 
+ her\, Paula formed Versatile PhD\, a web-based socially positive business.
+  Versatile PhD is a company formed with the goal of helping PhD's across a
+ ll subjects identify\, prepare for\, and succeed in non-academic careers. 
+ Join us to hear Paula speak about the formation of her company and what it
+  has to offer for STEM PhD's.</p><p> Additionally\, Tufts postdoc Sarah Dy
+ kstra will describe what events and opportunities Versatile PhD offers in 
+ the Boston area.</p>\n\n<p>Founder and CEO\, Paula Chambers\, PhD received
+  her PhD in Rhetoric and Composition from Ohio State University. Realizing
+  that academia was not for her\, Paula formed Versatile PhD\, a web-based 
+ socially positive business. Versatile PhD is a company formed with the goa
+ l of helping PhD's across all subjects identify\, prepare for\, and succee
+ d in non-academic careers. Join us to hear Paula speak about the formation
+  of her company and what it has to offer for STEM PhD's.</p><p> Additional
+ ly\, Tufts postdoc Sarah Dykstra will describe what events and opportuniti
+ es Versatile PhD offers in the Boston area.</p>\n\nContact: Christina McGu
+ ire\n8608341949\n\nhttp://sackler.tufts.edu/Calendar/2016/03/16/GSC-Career
+ -Paths-Seminar-Paula-Chambers.aspx
 LOCATION:(Jaharis 508) 150 Harrison Avenue\, Room 508
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Antonella Pirone
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160317T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160317T130000
-DESCRIPTION:\nAntonella Pirone\, PhD speaking\n\nContact: Alison Hochler\n
- alison.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calen
- dar/2016/03/17/Neuroscience-Research-Series-Antonella-Pirone.aspx
+DESCRIPTION:Speaker(s): Antonella Pirone\, PhD\n\nContact: Alison Hochler\
+ nalison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calend
+ ar/2016/03/17/Neuroscience-Research-Series-Antonella-Pirone.aspx
 LOCATION:(Sackler 216A) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Faculty Research Presentation - Andrew Camilli
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160317T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160317T130000
-DESCRIPTION:\nAndrew Camilli\, PhD speaking\n\nContact: Microbiology\n\n		
- 		617-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03/17/Micro-Faculty
- -Research-Presentation-Andrew-Camilli.aspx
+DESCRIPTION:Speaker(s): Andrew Camilli\, PhD\n\nContact: Microbiology\n617
+ -636-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/17/Micro-Faculty-Re
+ search-Presentation-Andrew-Camilli.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Genetics Student Talks - Alex Fine
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160317T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160317T130000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/03/17/Genetics-Studen
- t-Talks-Alex-Fine.aspx
+DESCRIPTION:http://sackler.tufts.edu/Calendar/2016/03/17/Genetics-Student-
+ Talks-Alex-Fine.aspx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Library Workshop - PubMed: The Basics
@@ -241,26 +288,30 @@ DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160318T100000
 DESCRIPTION:<p>In this workshop\, we will review: the structure of PubMed\
  ; planning and executing a search strategy\; narrowing the search results\
  ; finding full text\; and exporting citations.</p><a href="http://hirshlib
- rary.tufts.edu/events">Register for this workshop.</a>\n\nContact: Laura P
- avlech\nlaura.pavlech@tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03
- /18/Library-Workshop-PubMed-The-Basics.aspx
+ rary.tufts.edu/events">Register for this workshop.</a>\n\n<p>In this works
+ hop\, we will review: the structure of PubMed\; planning and executing a s
+ earch strategy\; narrowing the search results\; finding full text\; and ex
+ porting citations.</p><a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/18/Library-Workshop-PubMe
+ d-The-Basics.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PPET Thesis Defense - Malek Najjar
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160318T130000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160318T133000
-DESCRIPTION:\nMalek L. Najjar speaking\n\nContact: Alexei Degterev\, PhD\n
- alexei.degterev@tufts.edu\n				617-636-0491\nhttp://sackler.tufts.edu/Cale
- ndar/2016/03/18/PPET-Thesis-Defense-Malek-Najjar.aspx
+DESCRIPTION:Speaker(s): Malek L. Najjar\n\nContact: Alexei Degterev\, PhD\
+ nalexei.degterev@tufts.edu\n617-636-0491\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/03/18/PPET-Thesis-Defense-Malek-Najjar.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Basma Joma
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160321T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160321T130000
-DESCRIPTION:\nBasma Joma speaking\nhttp://sackler.tufts.edu/Calendar/2016/
- 03/21/Immunology-Student-Talks-Basma-Joma.aspx
+DESCRIPTION:Speaker(s): Basma Joma\n\nhttp://sackler.tufts.edu/Calendar/20
+ 16/03/21/Immunology-Student-Talks-Basma-Joma.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
@@ -273,9 +324,14 @@ DESCRIPTION:<p>Premier event\, introducing prospective candidates from Bos
  ll be discussing the Bridge to BCG Program\, a three-day summer opportunit
  y designed for advanced degree candidates to learn more about consulting.<
  /p><p>Please RSVP for the event here: http://bit.ly/RSVPConnectionEvent</p
- >\n\nContact: TBBC\ntuftsbiotech@gmail.com\nhttp://sackler.tufts.edu/Calen
- dar/2016/03/21/The-Boston-Consulting-Group-Boston-ADC-Connection-Event.asp
- x
+ >\n\n<p>Premier event\, introducing prospective candidates from Boston Are
+ a PhD\, JD\, Post-Doc\, and MD programs to The Boston Consulting Group\, i
+ ts people\, and the work that BCG does. </p><p>At the event\, we will be d
+ iscussing the Bridge to BCG Program\, a three-day summer opportunity desig
+ ned for advanced degree candidates to learn more about consulting.</p><p>P
+ lease RSVP for the event here: http://bit.ly/RSVPConnectionEvent</p>\n\nCo
+ ntact: TBBC\ntuftsbiotech@gmail.com\n\nhttp://sackler.tufts.edu/Calendar/2
+ 016/03/21/The-Boston-Consulting-Group-Boston-ADC-Connection-Event.aspx
 LOCATION:(The Charles Hotel - Harvard Square) 1 Bennett St\, Cambridge\, M
  A 02138
 END:VEVENT
@@ -283,74 +339,87 @@ BEGIN:VEVENT
 SUMMARY:Biochemistry Thesis Defense - Henry Rogalin
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160322T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160322T111500
-DESCRIPTION:\nHenry Rogalin speaking\n\nContact: Katya Heldwein\, PhD\nkat
- ya.heldwein@tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03/22/Bioche
- mistry-Thesis-Defense-Henry-Rogalin.aspx
+DESCRIPTION:Speaker(s): Henry Rogalin\n\nContact: Katya Heldwein\, PhD\nka
+ tya.heldwein@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/22/Bio
+ chemistry-Thesis-Defense-Henry-Rogalin.aspx
 LOCATION:(Behrakis Auditorium) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Andrea Koenigsberg
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160322T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160322T130000
-DESCRIPTION:\nAndrea Koenigsberg speaking\n\nContact: Microbiology \n\n			
- 	617-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03/22/Micro-Research
- -Report-Andrea-Koenigsberg.aspx
+DESCRIPTION:Speaker(s): Andrea Koenigsberg\n\nContact: Microbiology \n617-
+ 636-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/22/Micro-Research-Re
+ port-Andrea-Koenigsberg.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Michael Pereira
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160322T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160322T130000
-DESCRIPTION:\nMichael Pereira speaking\n\nContact: Microbiology \n\n				61
- 7-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03/22/Micro-Research-Re
- port-Michael-Pereira.aspx
+DESCRIPTION:Speaker(s): Michael Pereira\n\nContact: Microbiology \n617-636
+ -3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/22/Micro-Research-Repor
+ t-Michael-Pereira.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Seminar Series - Roman Giger
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160323T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160323T110000
-DESCRIPTION:\nRoman Giger\, PhD speaking\n\nContact: Alison Hochler\naliso
- n.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calendar/2
- 016/03/23/Neuroscience-Seminar-Series-Roman-Giger.aspx
+DESCRIPTION:Speaker(s): Roman Giger\, PhD\n\nContact: Alison Hochler\nalis
+ on.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calendar/20
+ 16/03/23/Neuroscience-Seminar-Series-Roman-Giger.aspx
 LOCATION:(Sackler B09) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Thesis Defense - Daniel Ram
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160323T110000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160323T120000
-DESCRIPTION:\nDaniel R. Ram speaking\nhttp://sackler.tufts.edu/Calendar/20
- 16/03/23/Immunology-Thesis-Defense-Daniel-Ram.aspx
+DESCRIPTION:Speaker(s): Daniel R. Ram\n\nhttp://sackler.tufts.edu/Calendar
+ /2016/03/23/Immunology-Thesis-Defense-Daniel-Ram.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Seminar - Margaret Kielian\, PhD
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160323T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160323T130000
-DESCRIPTION:\nMargaret Kielian\, PhD speaking\n\nContact: Microbiology \n\
- n				617-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03/23/Micro-Semi
- nar-Margaret-Kielian-PhD.aspx
+DESCRIPTION:Speaker(s): Margaret Kielian\, PhD\n\nContact: Microbiology \n
+ 617-636-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/23/Micro-Seminar
+ -Margaret-Kielian-PhD.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PDA Seminar - Karen Kelsey
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160323T140000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160323T170000
-DESCRIPTION:<p>Please join us for a workshop on how to prepare\, apply and
-  interview for a tenure track job with Karen Kelsky\, coach\, lecturer and
-  author of the Professor Is In blog and book.  We'll walk through how to p
- repare your application packet\, learn about the steps of your application
-  and do a series of role playing exercises to prepare for interviews.</p><
- p>Where:<br/>\nTufts University (Boston Campus)<br/>\n136 Harrison Avenue\
- , Sackler Room 221<br/>\n<br/>\nTufts University (Medford Campus)<br/>\nAn
- derson 208 (interactive videoconferencing with the Boston campus and Karen
- )</p><p>Registration is limited\; however\, waitlist will be available.  P
- lease contact us if you'd like to be placed on the waiting list.</p><p>Ple
- ase note: Live streaming of this seminar via WebEx will be available\, ple
- ase register for the WebEx only ticket type and you will be sent login inf
- ormation 2 hours prior to the seminar.</p>\n\nContact: Ania Wronski\nanna.
- wronski@tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03/23/PDA-Semina
- r-Karen-Kelsey.aspx
+DESCRIPTION:Speaker(s): Karen Kelsky\, PhD\n\n<p>Please join us for a work
+ shop on how to prepare\, apply and interview for a tenure track job with K
+ aren Kelsky\, coach\, lecturer and author of the Professor Is In blog and 
+ book.  We'll walk through how to prepare your application packet\, learn a
+ bout the steps of your application and do a series of role playing exercis
+ es to prepare for interviews.</p><p>Where:<br/>\nTufts University (Boston 
+ Campus)<br/>\n136 Harrison Avenue\, Sackler Room 221<br/>\n<br/>\nTufts Un
+ iversity (Medford Campus)<br/>\nAnderson 208 (interactive videoconferencin
+ g with the Boston campus and Karen)</p><p>Registration is limited\; howeve
+ r\, waitlist will be available.  Please contact us if you'd like to be pla
+ ced on the waiting list.</p><p>Please note: Live streaming of this seminar
+  via WebEx will be available\, please register for the WebEx only ticket t
+ ype and you will be sent login information 2 hours prior to the seminar.</
+ p>\n\n<p>Please join us for a workshop on how to prepare\, apply and inter
+ view for a tenure track job with Karen Kelsky\, coach\, lecturer and autho
+ r of the Professor Is In blog and book.  We'll walk through how to prepare
+  your application packet\, learn about the steps of your application and d
+ o a series of role playing exercises to prepare for interviews.</p><p>Wher
+ e:<br/>\nTufts University (Boston Campus)<br/>\n136 Harrison Avenue\, Sack
+ ler Room 221<br/>\n<br/>\nTufts University (Medford Campus)<br/>\nAnderson
+  208 (interactive videoconferencing with the Boston campus and Karen)</p><
+ p>Registration is limited\; however\, waitlist will be available.  Please 
+ contact us if you'd like to be placed on the waiting list.</p><p>Please no
+ te: Live streaming of this seminar via WebEx will be available\, please re
+ gister for the WebEx only ticket type and you will be sent login informati
+ on 2 hours prior to the seminar.</p>\n\nContact: Ania Wronski\nanna.wronsk
+ i@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/23/PDA-Seminar-Ka
+ ren-Kelsey.aspx
 LOCATION:(Sackler 221) 136 Harrison Ave\, Boston MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -362,53 +431,59 @@ DESCRIPTION:<p>This session will introduce you to the basics of using the
  om literature databases (PubMed\, Web of Science\, etc.) into EndNote\, cr
  eating references from PDFs\, organizing your references\, and inserting i
  n-text citations and bibliographies in Word.</p><a href="http://hirshlibra
- ry.tufts.edu/events">Register for this workshop.</a>\n\nContact: Laura Pav
- lech\nlaura.pavlech@tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03/2
- 3/Library-Workshop-EndNote-The-Basics.aspx
+ ry.tufts.edu/events">Register for this workshop.</a>\n\n<p>This session wi
+ ll introduce you to the basics of using the citation management program En
+ dNote.  We will cover exporting citations from literature databases (PubMe
+ d\, Web of Science\, etc.) into EndNote\, creating references from PDFs\, 
+ organizing your references\, and inserting in-text citations and bibliogra
+ phies in Word.</p><a href="http://hirshlibrary.tufts.edu/events">Register 
+ for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.edu\
+ n\nhttp://sackler.tufts.edu/Calendar/2016/03/23/Library-Workshop-EndNote-T
+ he-Basics.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Genetics Student Talks - Alex Neil
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160324T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160324T130000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/03/24/Genetics-Studen
- t-Talks-Alex-Neil.aspx
+DESCRIPTION:http://sackler.tufts.edu/Calendar/2016/03/24/Genetics-Student-
+ Talks-Alex-Neil.aspx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMP Thesis Defense - Sejuti Sengupta
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160324T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160324T133000
-DESCRIPTION:\nSejuti Sengupta speaking\n\nContact: Brent Cochran\n\n				61
- 7-636-0442\nhttp://sackler.tufts.edu/Calendar/2016/03/24/CMP-Thesis-Defens
- e-Sejuti-Sengupta.aspx
+DESCRIPTION:Speaker(s): Sejuti Sengupta\n\nContact: Brent Cochran\n617-636
+ -0442\n\nhttp://sackler.tufts.edu/Calendar/2016/03/24/CMP-Thesis-Defense-S
+ ejuti-Sengupta.aspx
 LOCATION:(Posner Auditorium) 200 Harrison Ave\, Boston MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Sam You & David Dickson
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160324T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160324T130000
-DESCRIPTION:\nSam You (Jackson Lab) & David Dickson (Feig Lab) speaking\n\
- nContact: Alison Hochler\nalison.hochler@tufts.edu\n				617-636-3857\nhttp
- ://sackler.tufts.edu/Calendar/2016/03/24/Neuroscience-Research-Series-Sam-
- You-David-Dickson.aspx
+DESCRIPTION:Speaker(s): Sam You (Jackson Lab) & David Dickson (Feig Lab)\n
+ \nContact: Alison Hochler\nalison.hochler@tufts.edu\n617-636-3857\n\nhttp:
+ //sackler.tufts.edu/Calendar/2016/03/24/Neuroscience-Research-Series-Sam-Y
+ ou-David-Dickson.aspx
 LOCATION:(Sackler 216A) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Faculty Research Presentation - James Munro
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160324T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160324T130000
-DESCRIPTION:\nJames Munro\, PhD speaking\n\nContact: Microbiology\n\n				6
- 17-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03/24/Micro-Faculty-Re
- search-Presentation-James-Munro.aspx
+DESCRIPTION:Speaker(s): James Munro\, PhD\n\nContact: Microbiology\n617-63
+ 6-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/24/Micro-Faculty-Resea
+ rch-Presentation-James-Munro.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:IPP Faculty Candidate Seminar - Xudong Li
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160324T160000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160324T170000
-DESCRIPTION:\nXudong Li\, PhD speaking\n\nContact: Andrea Flaherty\nAndrea
- .Flaherty@tufts.edu\n				617-636-3464\nhttp://sackler.tufts.edu/Calendar/2
- 016/03/24/IPP-Faculty-Candidate-Seminar-Xudong-Li.aspx
+DESCRIPTION:Speaker(s): Xudong Li\, PhD\n\nContact: Andrea Flaherty\nAndre
+ a.Flaherty@tufts.edu\n617-636-3464\n\nhttp://sackler.tufts.edu/Calendar/20
+ 16/03/24/IPP-Faculty-Candidate-Seminar-Xudong-Li.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -420,60 +495,66 @@ DESCRIPTION:<p>This session will introduce you to the basics of using the
  om literature databases (PubMed\, Web of Science\, etc.) into EndNote\, cr
  eating references from PDFs\, organizing your references\, and inserting i
  n-text citations and bibliographies in Word.</p><a href="http://hirshlibra
- ry.tufts.edu/events">Register for this workshop.</a>\n\nContact: Laura Pav
- lech\nlaura.pavlech@tufts.edu\nhttp://sackler.tufts.edu/Calendar/2016/03/2
- 5/Library-Workshop-EndNote-The-Basics.aspx
+ ry.tufts.edu/events">Register for this workshop.</a>\n\n<p>This session wi
+ ll introduce you to the basics of using the citation management program En
+ dNote.  We will cover exporting citations from literature databases (PubMe
+ d\, Web of Science\, etc.) into EndNote\, creating references from PDFs\, 
+ organizing your references\, and inserting in-text citations and bibliogra
+ phies in Word.</p><a href="http://hirshlibrary.tufts.edu/events">Register 
+ for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.edu\
+ n\nhttp://sackler.tufts.edu/Calendar/2016/03/25/Library-Workshop-EndNote-T
+ he-Basics.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:PPET Thesis Defense - Jennifer Nwankwo
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160325T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160325T233000
-DESCRIPTION:\nJennifer O. Nwankwo speaking\n\nContact: Athar Chishti\, PhD
- \nathar.chishti@tufts.edu\n				636-3457\nhttp://sackler.tufts.edu/Calendar
- /2016/03/25/PPET-Thesis-Defense-Jennifer-Nwankwo.aspx
+DESCRIPTION:Speaker(s): Jennifer O. Nwankwo\n\nContact: Athar Chishti\, Ph
+ D\nathar.chishti@tufts.edu\n636-3457\n\nhttp://sackler.tufts.edu/Calendar/
+ 2016/03/25/PPET-Thesis-Defense-Jennifer-Nwankwo.aspx
 LOCATION:(Sackler 114) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Giang Nguyen
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160328T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160328T130000
-DESCRIPTION:\nGiang Nguyen speaking\nhttp://sackler.tufts.edu/Calendar/201
- 6/03/28/Immunology-Student-Talks-Giang-Nguyen.aspx
-LOCATION:None 150 Harrison Ave\, Boston\, MA  02111
+DESCRIPTION:Speaker(s): Giang Nguyen\n\nhttp://sackler.tufts.edu/Calendar/
+ 2016/03/28/Immunology-Student-Talks-Giang-Nguyen.aspx
+LOCATION: 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:CMP Thesis Defense - Kristina Cotter
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160329T120000
-DESCRIPTION:\nKristina Cotter speaking\n\nContact: Michael Forgac\n\n				6
- 17-636-6939\nhttp://sackler.tufts.edu/Calendar/2016/03/29/CMP-Thesis-Defen
- se-Kristina-Cotter.aspx
+DESCRIPTION:Speaker(s): Kristina Cotter\n\nContact: Michael Forgac\n617-63
+ 6-6939\n\nhttp://sackler.tufts.edu/Calendar/2016/03/29/CMP-Thesis-Defense-
+ Kristina-Cotter.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Lou Cornacchione
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160329T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160329T130000
-DESCRIPTION:\nLou Cornacchione speaking\n\nContact: Microbiology \n\n				6
- 17-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/03/29/Micro-Research-R
- eport-Lou-Cornacchione.aspx
+DESCRIPTION:Speaker(s): Lou Cornacchione\n\nContact: Microbiology \n617-63
+ 6-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/03/29/Micro-Research-Repo
+ rt-Lou-Cornacchione.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Seminar Series - Stefano Vicini
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160330T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160330T110000
-DESCRIPTION:\nStefano Vicini\, PhD speaking\n\nContact: Alison Hochler\nal
- ison.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calenda
- r/2016/03/30/Neuroscience-Seminar-Series-Stefano-Vicini.aspx
+DESCRIPTION:Speaker(s): Stefano Vicini\, PhD\n\nContact: Alison Hochler\na
+ lison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calendar
+ /2016/03/30/Neuroscience-Seminar-Series-Stefano-Vicini.aspx
 LOCATION:(Sacker 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sidney Leskowitz Memorial Lecture
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160330T160000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160330T170000
-DESCRIPTION:\nAlexander Rudensky speaking\nhttp://sackler.tufts.edu/Calend
- ar/2016/03/30/Sidney-Leskowitz-Memorial-Lecture.aspx
+DESCRIPTION:Speaker(s): Alexander Rudensky\n\nhttp://sackler.tufts.edu/Cal
+ endar/2016/03/30/Sidney-Leskowitz-Memorial-Lecture.aspx
 LOCATION:(Behrakis Auditorium) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -486,58 +567,87 @@ DESCRIPTION:<p>Cross disciplinary subject? Not sure where to go after you
  op you will learn how to: construct a keyword search\, find citations and 
  references for an article\, and create a citation report for an author or 
  set of results.</p><a href="http://hirshlibrary.tufts.edu/events">Register
-  for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.edu
- \nhttp://sackler.tufts.edu/Calendar/2016/03/30/Library-Workshop-Web-of-Sci
- ence-and-Scopus.aspx
+  for this workshop.</a>\n\n<p>Cross disciplinary subject? Not sure where t
+ o go after you have searched PubMed? Have you written an article and want 
+ to know who has cited you? Then Web of Science and Scopus may be for you! 
+  In this workshop you will learn how to: construct a keyword search\, find
+  citations and references for an article\, and create a citation report fo
+ r an author or set of results.</p><a href="http://hirshlibrary.tufts.edu/e
+ vents">Register for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pa
+ vlech@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/03/30/Library-Wo
+ rkshop-Web-of-Science-and-Scopus.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Genetics Student Talks - Jess Behringer and Kate Foley
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160331T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160331T130000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/03/31/Genetics-Studen
- t-Talks-Jess-Behringer-and-Kate-Foley.aspx
+DESCRIPTION:http://sackler.tufts.edu/Calendar/2016/03/31/Genetics-Student-
+ Talks-Jess-Behringer-and-Kate-Foley.aspx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Alex Jones & Jenny Koenig
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160331T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160331T130000
-DESCRIPTION:\nAlex Jones (Reijmers Lab) & Jenny Koenig (Dulla Lab) speakin
- g\n\nContact: Alison Hochler\nalison.hochler@tufts.edu\n				617-636-3857\n
- http://sackler.tufts.edu/Calendar/2016/03/31/Neuroscience-Research-Series-
- Alex-Jones-Jenny-Koenig.aspx
+DESCRIPTION:Speaker(s): Alex Jones (Reijmers Lab) & Jenny Koenig (Dulla La
+ b)\n\nContact: Alison Hochler\nalison.hochler@tufts.edu\n617-636-3857\n\nh
+ ttp://sackler.tufts.edu/Calendar/2016/03/31/Neuroscience-Research-Series-A
+ lex-Jones-Jenny-Koenig.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Seminar - David Walt - How to Develop a Great Research Idea
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160331T170000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160331T180000
-DESCRIPTION:<p>Join us for a talk with David R. Walt\, PhD\, the Robinson 
- Professor of Chemistry on how to develop your next big scientific idea for
-  success in Academia and Industry.</p><p>David is an HHMI and University P
- rofessor at Tufts\, founder of Illumina\, a company based on Walt’s inve
- ntion of a miniature lab platform that allows researchers to conduct genet
- ic screening and other repetitive experiments quickly and cheaply. </p><p>
- Illumina offers products and services for genetic sequencing and gene expr
- ession\, and its technologies are used by academic\, government\, pharmace
- utical\, biotechnology and other institutions around the globe. Walt also 
- founded and serves on the board of Quanterix\, a privately held company fo
- cused on analysis of single molecules\, for ultra-sensitive protein analys
- is\, with applications being developed for medical diagnosis.</p><p>Please
-  note: Live streaming of this seminar via WebEx will be available\, please
-  register for the WebEx only ticket type and you will be sent login inform
- ation 2 hours prior to the seminar.</p><p>This seminar is being held in Me
- dford\, however we have Sackler 216B booked where you can come to listen t
- o the talk\, or WebEx in. There will be pizza at both Medford and Boston l
- ocations. Please register for "Attending Boston Location" if you wish to j
- oin us in Boston.</p><p>\nLocations:\nMedford: Barnum 104\nBoston: Sackler
-  216B</p><p>Registration <a class="noborder" href="http://www.tuftspda.wo
- rdpress.com/register" title="Registration Page"><img alt="weblink" class="
- noborder" height="15" src="/~/media/Sackler/Page Images/Icons/weblink.png?
- h=15&amp\;w=17" style="height: 15px\; width: 17px\;" width="17"/></a> </p>
- \n\nContact: Ania\nanna.wronski@tufts.edu\nhttp://sackler.tufts.edu/Calend
- ar/2016/03/31/Seminar-David-Walt-How-to-Develop-a-Great-Research-Idea-.asp
- x
+DESCRIPTION:Speaker(s): David Walt\n\n<p>Join us for a talk with David R. 
+ Walt\, PhD\, the Robinson Professor of Chemistry on how to develop your ne
+ xt big scientific idea for success in Academia and Industry.</p><p>David i
+ s an HHMI and University Professor at Tufts\, founder of Illumina\, a comp
+ any based on Walt’s invention of a miniature lab platform that allows re
+ searchers to conduct genetic screening and other repetitive experiments qu
+ ickly and cheaply. </p><p>Illumina offers products and services for geneti
+ c sequencing and gene expression\, and its technologies are used by academ
+ ic\, government\, pharmaceutical\, biotechnology and other institutions ar
+ ound the globe. Walt also founded and serves on the board of Quanterix\, a
+  privately held company focused on analysis of single molecules\, for ultr
+ a-sensitive protein analysis\, with applications being developed for medic
+ al diagnosis.</p><p>Please note: Live streaming of this seminar via WebEx 
+ will be available\, please register for the WebEx only ticket type and you
+  will be sent login information 2 hours prior to the seminar.</p><p>This s
+ eminar is being held in Medford\, however we have Sackler 216B booked wher
+ e you can come to listen to the talk\, or WebEx in. There will be pizza at
+  both Medford and Boston locations. Please register for "Attending Boston 
+ Location" if you wish to join us in Boston.</p><p>\nLocations:\nMedford: B
+ arnum 104\nBoston: Sackler 216B</p><p>Registration <a class="noborder" hr
+ ef="http://www.tuftspda.wordpress.com/register" title="Registration Page">
+ <img alt="weblink" class="noborder" height="15" src="/~/media/Sackler/Page
+  Images/Icons/weblink.png?h=15&amp\;w=17" style="height: 15px\; width: 17p
+ x\;" width="17"/></a> </p>\n\n<p>Join us for a talk with David R. Walt\, P
+ hD\, the Robinson Professor of Chemistry on how to develop your next big s
+ cientific idea for success in Academia and Industry.</p><p>David is an HHM
+ I and University Professor at Tufts\, founder of Illumina\, a company base
+ d on Walt’s invention of a miniature lab platform that allows researcher
+ s to conduct genetic screening and other repetitive experiments quickly an
+ d cheaply. </p><p>Illumina offers products and services for genetic sequen
+ cing and gene expression\, and its technologies are used by academic\, gov
+ ernment\, pharmaceutical\, biotechnology and other institutions around the
+  globe. Walt also founded and serves on the board of Quanterix\, a private
+ ly held company focused on analysis of single molecules\, for ultra-sensit
+ ive protein analysis\, with applications being developed for medical diagn
+ osis.</p><p>Please note: Live streaming of this seminar via WebEx will be 
+ available\, please register for the WebEx only ticket type and you will be
+  sent login information 2 hours prior to the seminar.</p><p>This seminar i
+ s being held in Medford\, however we have Sackler 216B booked where you ca
+ n come to listen to the talk\, or WebEx in. There will be pizza at both Me
+ dford and Boston locations. Please register for "Attending Boston Location
+ " if you wish to join us in Boston.</p><p>\nLocations:\nMedford: Barnum 10
+ 4\nBoston: Sackler 216B</p><p>Registration <a class="noborder" href="http
+ ://www.tuftspda.wordpress.com/register" title="Registration Page"><img alt
+ ="weblink" class="noborder" height="15" src="/~/media/Sackler/Page Images/
+ Icons/weblink.png?h=15&amp\;w=17" style="height: 15px\; width: 17px\;" wid
+ th="17"/></a> </p>\n\nContact: Ania\nanna.wronski@tufts.edu\n\nhttp://sack
+ ler.tufts.edu/Calendar/2016/03/31/Seminar-David-Walt-How-to-Develop-a-Grea
+ t-Research-Idea-.aspx
 LOCATION:(Barnum 104 & Streamed to Sackler 216B) 163 Packard Ave\, Medford
   MA 02155
 END:VEVENT
@@ -551,9 +661,15 @@ DESCRIPTION:<p>Cross disciplinary subject? Not sure where to go after you
  op you will learn how to: construct a keyword search\, find citations and 
  references for an article\, and create a citation report for an author or 
  set of results.</p><a href="http://hirshlibrary.tufts.edu/events">Register
-  for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.edu
- \nhttp://sackler.tufts.edu/Calendar/2016/04/01/Library-Workshop-EndNote-Th
- e-Basics.aspx
+  for this workshop.</a>\n\n<p>Cross disciplinary subject? Not sure where t
+ o go after you have searched PubMed? Have you written an article and want 
+ to know who has cited you? Then Web of Science and Scopus may be for you! 
+  In this workshop you will learn how to: construct a keyword search\, find
+  citations and references for an article\, and create a citation report fo
+ r an author or set of results.</p><a href="http://hirshlibrary.tufts.edu/e
+ vents">Register for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pa
+ vlech@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/04/01/Library-Wo
+ rkshop-EndNote-The-Basics.aspx
 LOCATION:(Sackler 510) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -573,10 +689,23 @@ DESCRIPTION:<p>The New England Science Symposium (NESS)\, established in 2
  icalgraduate/new-england-science-symposium" target="_blank" title="New Eng
  land Science Symposium"><img alt="weblink" class="noborder" height="15" sr
  c="/~/media/Sackler/Page Images/Icons/weblink.png?h=15&amp\;w=17" style="h
- eight: 15px\; width: 17px\;" width="17"/></a></p>\n\nContact: Rodolfo Ramo
- s\, Program Coordinator – New England Science Symposium\nRodolfo_Ramos@h
- ms.harvard.edu\nhttp://sackler.tufts.edu/Calendar/2016/04/03/New-England-S
- cience-Symposium.aspx
+ eight: 15px\; width: 17px\;" width="17"/></a></p>\n\n<p>The New England Sc
+ ience Symposium (NESS)\, established in 2002\,  provides a forum for pos
+ tdoctoral fellows\; medical\, dental and graduate students\; post-baccalau
+ reates\; college and community college students (particularly for African-
+ American\, Hispanic/Latino and American Indian/Alaska Native individuals)
+  to share their biomedical and health-related research activities throug
+ h oral or poster presentations\, to engage in discussions related to car
+ eer development in the sciences\, to exchange ideas and to expand their pr
+ ofessional networks.</p><p>Find out more information about submitting an a
+ bstract and registering at the event website <a class="noborder" href="htt
+ ps://mfdp.med.harvard.edu/dcp-programs/medicalgraduate/new-england-science
+ -symposium" target="_blank" title="New England Science Symposium"><img alt
+ ="weblink" class="noborder" height="15" src="/~/media/Sackler/Page Images/
+ Icons/weblink.png?h=15&amp\;w=17" style="height: 15px\; width: 17px\;" wid
+ th="17"/></a></p>\n\nContact: Rodolfo Ramos\, Program Coordinator – New 
+ England Science Symposium\nRodolfo_Ramos@hms.harvard.edu\n\nhttp://sackler
+ .tufts.edu/Calendar/2016/04/03/New-England-Science-Symposium.aspx
 LOCATION:(Joseph B. Martin Conference Center\, Harvard Medical School) 77 
  Avenue Louis Pasteur\, Boston\, MA 02115
 END:VEVENT
@@ -584,139 +713,138 @@ BEGIN:VEVENT
 SUMMARY:CMP Thesis Defense - Shreya Kulkarni
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160404T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160404T113000
-DESCRIPTION:\nShreya Kulkarni speaking\n\nContact: Brent Cochran\n\n				61
- 7-636-0442\nhttp://sackler.tufts.edu/Calendar/2016/04/04/CMP-Thesis-Defens
- e-Shreya-Kulkarni.aspx
+DESCRIPTION:Speaker(s): Shreya Kulkarni\n\nContact: Brent Cochran\n617-636
+ -0442\n\nhttp://sackler.tufts.edu/Calendar/2016/04/04/CMP-Thesis-Defense-S
+ hreya-Kulkarni.aspx
 LOCATION:(Sackler 114) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Megan McPhillips
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160404T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160404T130000
-DESCRIPTION:\nMegan McPhillips speaking\nhttp://sackler.tufts.edu/Calendar
- /2016/04/04/Immunology-Student-Talks-Megan-McPhillips.aspx
+DESCRIPTION:Speaker(s): Megan McPhillips\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/04/04/Immunology-Student-Talks-Megan-McPhillips.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Michelle Logsdon
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160405T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160405T130000
-DESCRIPTION:\nMichelle Logsdon speaking\n\nContact: Microbiology \n\n				6
- 17-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/04/05/Micro-Research-R
- eport-Michelle-Logsdon.aspx
+DESCRIPTION:Speaker(s): Michelle Logsdon\n\nContact: Microbiology \n617-63
+ 6-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/04/05/Micro-Research-Repo
+ rt-Michelle-Logsdon.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:The Job Interview: Practical Tips for Success
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160405T170000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160405T190000
-DESCRIPTION:\nLauren Celano speaking\n\nContact: Jessica Wang-Strykowski\n
- jessica.wang_strykowski@tufts.edu\n				617-636-6767\nhttp://sackler.tufts.
- edu/Calendar/2016/04/05/The-Job-Interview-Practical-Tips-for-Success-.aspx
+DESCRIPTION:Speaker(s): Lauren Celano\n\nContact: Jessica Wang-Strykowski\
+ njessica.wang_strykowski@tufts.edu\n617-636-6767\n\nhttp://sackler.tufts.e
+ du/Calendar/2016/04/05/The-Job-Interview-Practical-Tips-for-Success-.aspx
 LOCATION:(SK 114) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Seminar Series - Michael Wong
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160406T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160406T110000
-DESCRIPTION:\nMichael Wong\, MD\, PhD speaking\n\nContact: Alison Hochler\
- nalison.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Cale
- ndar/2016/04/06/Neuroscience-Seminar-Series-Michael-Wong.aspx
+DESCRIPTION:Speaker(s): Michael Wong\, MD\, PhD\n\nContact: Alison Hochler
+ \nalison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/04/06/Neuroscience-Seminar-Series-Michael-Wong.aspx
 LOCATION:(Sackler B09) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Gene\, Immuno\, Micro Seminar - Lynn Enquist\, PhD
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160406T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160406T130000
-DESCRIPTION:\n\nContact: Microbiology \n\n				617-636-3451\nhttp://sackler
- .tufts.edu/Calendar/2016/04/06/Gene-Immuno-Micro-Seminar-Lynn-Enquist-PhD.
- aspx
+DESCRIPTION:Contact: Microbiology \n617-636-3451\n\nhttp://sackler.tufts.e
+ du/Calendar/2016/04/06/Gene-Immuno-Micro-Seminar-Lynn-Enquist-PhD.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Selene Lomoio
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160407T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160407T130000
-DESCRIPTION:\nSelene Lomoio\, PhD speaking\n\nContact: Alison Hochler\nali
- son.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calendar
- /2016/04/07/Neuroscience-Research-Series-Selene-Lomoio.aspx
+DESCRIPTION:Speaker(s): Selene Lomoio\, PhD\n\nContact: Alison Hochler\nal
+ ison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calendar/
+ 2016/04/07/Neuroscience-Research-Series-Selene-Lomoio.aspx
 LOCATION:(Sackler 316) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Genetics Student Talks - Erion Lipo and Mike McLellan
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160407T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160407T130000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/04/07/Genetics-Studen
- t-Talks-Erion-Lipo-and-Mike-McLellan.aspx
+DESCRIPTION:http://sackler.tufts.edu/Calendar/2016/04/07/Genetics-Student-
+ Talks-Erion-Lipo-and-Mike-McLellan.aspx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Rebecca Cooper
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160407T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160407T130000
-DESCRIPTION:\nRebecca Cooper speaking\n\nContact: Microbiology \n\n				617
- -636-3451\nhttp://sackler.tufts.edu/Calendar/2016/04/07/Micro-Research-Rep
- ort-Rebecca-Cooper.aspx
+DESCRIPTION:Speaker(s): Rebecca Cooper\n\nContact: Microbiology \n617-636-
+ 3451\n\nhttp://sackler.tufts.edu/Calendar/2016/04/07/Micro-Research-Report
+ -Rebecca-Cooper.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Abdo Abou-Slaybi
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160411T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160411T130000
-DESCRIPTION:\nAbdo Abou-Slaybi speaking\nhttp://sackler.tufts.edu/Calendar
- /2016/04/11/Immunology-Student-Talks-Abdo-AbouSlaybi.aspx
+DESCRIPTION:Speaker(s): Abdo Abou-Slaybi\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/04/11/Immunology-Student-Talks-Abdo-AbouSlaybi.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Laura Markey
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160412T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160412T130000
-DESCRIPTION:\nLaura Markey speaking\n\nContact: Microbiology \n\n				617-6
- 36-3451\nhttp://sackler.tufts.edu/Calendar/2016/04/12/Micro-Research-Repor
- t-Laura-Markey.aspx
+DESCRIPTION:Speaker(s): Laura Markey\n\nContact: Microbiology \n617-636-34
+ 51\n\nhttp://sackler.tufts.edu/Calendar/2016/04/12/Micro-Research-Report-L
+ aura-Markey.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Seminar Series - Gary Yellen
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160413T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160413T110000
-DESCRIPTION:\nGary Yellen\, PhD speaking\n\nContact: Alison Hochler\naliso
- n.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calendar/2
- 016/04/13/Neuroscience-Seminar-Series-Gary-Yellen.aspx
+DESCRIPTION:Speaker(s): Gary Yellen\, PhD\n\nContact: Alison Hochler\nalis
+ on.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calendar/20
+ 16/04/13/Neuroscience-Seminar-Series-Gary-Yellen.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Lamyaa Shaban
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160414T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160414T130000
-DESCRIPTION:\nLamyaa Shaban speaking\n\nContact: Microbiology \n\n				617-
- 636-3451\nhttp://sackler.tufts.edu/Calendar/2016/04/14/Micro-Research-Repo
- rt-Lamyaa-Shaban.aspx
+DESCRIPTION:Speaker(s): Lamyaa Shaban\n\nContact: Microbiology \n617-636-3
+ 451\n\nhttp://sackler.tufts.edu/Calendar/2016/04/14/Micro-Research-Report-
+ Lamyaa-Shaban.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Julia Yelick & Eniola Yeates
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160414T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160414T130000
-DESCRIPTION:\nJulia Yelick (Yang Lab) & Eniola Yeates (Tesco Lab) speaking
- \n\nContact: Alison Hochler\nalison.hochler@tufts.edu\n				617-636-3857\nh
- ttp://sackler.tufts.edu/Calendar/2016/04/14/Neuroscience-Research-Series-J
- ulia-Yelick-Eniola-Yeates.aspx
+DESCRIPTION:Speaker(s): Julia Yelick (Yang Lab) & Eniola Yeates (Tesco Lab
+ )\n\nContact: Alison Hochler\nalison.hochler@tufts.edu\n617-636-3857\n\nht
+ tp://sackler.tufts.edu/Calendar/2016/04/14/Neuroscience-Research-Series-Ju
+ lia-Yelick-Eniola-Yeates.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Genetics Student Talks - Hayley Muendlein and Alex Stanton
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160414T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160414T130000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/04/14/Genetics-Studen
- t-Talks-Hayley-Muendlein-and-Alex-Stanton.aspx
+DESCRIPTION:http://sackler.tufts.edu/Calendar/2016/04/14/Genetics-Student-
+ Talks-Hayley-Muendlein-and-Alex-Stanton.aspx
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MIRI Seminar - Lisa Gualtieri
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160415T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160415T130000
-DESCRIPTION:\nLisa Gualtieri speaking\n\nContact: Roanna Forman\nrforman@t
- uftsmedicalcenter.org\n				617-636-1468\nhttp://sackler.tufts.edu/Calendar
- /2016/04/15/-MIRI-Seminar-Lisa-Gualtieri.aspx
+DESCRIPTION:Speaker(s): Lisa Gualtieri\n\nContact: Roanna Forman\nrforman@
+ tuftsmedicalcenter.org\n617-636-1468\n\nhttp://sackler.tufts.edu/Calendar/
+ 2016/04/15/-MIRI-Seminar-Lisa-Gualtieri.aspx
 LOCATION:(Stearns Auditorium\, Farnsworth 1) 30 Bennet St\, Boston\, MA 02
  111
 END:VEVENT
@@ -724,131 +852,131 @@ BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Alyssa Fasciano & Nick Macedo
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160418T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160418T130000
-DESCRIPTION:\nAlyssa Fasciano & Nick Macedo speaking\nhttp://sackler.tufts
- .edu/Calendar/2016/04/18/Immunology-Student-Talks-Alyssa-Fasciano-Nick-Mac
- edo.aspx
+DESCRIPTION:Speaker(s): Alyssa Fasciano & Nick Macedo\n\nhttp://sackler.tu
+ fts.edu/Calendar/2016/04/18/Immunology-Student-Talks-Alyssa-Fasciano-Nick-
+ Macedo.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Seminar Series - Larry Goldstein
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160420T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160420T110000
-DESCRIPTION:\nLarry Goldstein\, PhD speaking\n\nContact: Alison Hochler\na
- lison.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calend
- ar/2016/04/20/Neuroscience-Seminar-Series-Larry-Goldstein.aspx
+DESCRIPTION:Speaker(s): Larry Goldstein\, PhD\n\nContact: Alison Hochler\n
+ alison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calenda
+ r/2016/04/20/Neuroscience-Seminar-Series-Larry-Goldstein.aspx
 LOCATION:(Sackler B09) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Michaela Tolman & Anna Nathanson
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160421T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160421T130000
-DESCRIPTION:\nMichaela Tolman (Haydon Lab) & Anna Nathanson (Moss Lab) spe
- aking\n\nContact: Shelley Antonio\nshelley.antonio@tufts.edu\n				617-636-
- 3796\nhttp://sackler.tufts.edu/Calendar/2016/04/21/Neuroscience-Research-S
- eries-Michaela-Tolman-Anna-Nathanson.aspx
+DESCRIPTION:Speaker(s): Michaela Tolman (Haydon Lab) & Anna Nathanson (Mos
+ s Lab)\n\nContact: Shelley Antonio\nshelley.antonio@tufts.edu\n617-636-379
+ 6\n\nhttp://sackler.tufts.edu/Calendar/2016/04/21/Neuroscience-Research-Se
+ ries-Michaela-Tolman-Anna-Nathanson.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sterling Visiting Professorship in honor of Dr. Louis Lasagna
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160421T160000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160421T173000
-DESCRIPTION:\nC. Ronald Kahn\, MD speaking\n\nContact: Emmanuel Pothos\, P
- hD\nemmanuel.pothos@tufts.edu\n				636-6778\nhttp://sackler.tufts.edu/Cale
- ndar/2016/04/21/Sterling-Visiting-Professorship-in-honor-of-Dr-Louis-Lasag
- na.aspx
+DESCRIPTION:Speaker(s): C. Ronald Kahn\, MD\n\nContact: Emmanuel Pothos\, 
+ PhD\nemmanuel.pothos@tufts.edu\n636-6778\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/04/21/Sterling-Visiting-Professorship-in-honor-of-Dr-Louis-Lasagn
+ a.aspx
 LOCATION:(Behrakis Auditorium) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Immunology Student Talks - Jay Ngwenyama & Becca Silver
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160425T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160425T130000
-DESCRIPTION:\nJay Ngwenyama & Becca Silver speaking\nhttp://sackler.tufts.
- edu/Calendar/2016/04/25/Immunology-Student-Talks-Jay-Ngwenyama-Becca-Silve
- r.aspx
+DESCRIPTION:Speaker(s): Jay Ngwenyama & Becca Silver\n\nhttp://sackler.tuf
+ ts.edu/Calendar/2016/04/25/Immunology-Student-Talks-Jay-Ngwenyama-Becca-Si
+ lver.aspx
 LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Seminar Series - Jeffery Tasker
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160427T100000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160427T110000
-DESCRIPTION:\nJeffery Tasker\, PhD speaking\n\nContact: Alison Hochelr\nal
- ison.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/Calenda
- r/2016/04/27/Neuroscience-Seminar-Series-Jeffery-Tasker.aspx
+DESCRIPTION:Speaker(s): Jeffery Tasker\, PhD\n\nContact: Alison Hochelr\na
+ lison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Calendar
+ /2016/04/27/Neuroscience-Seminar-Series-Jeffery-Tasker.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Laurel Drane Conley & Julie Coleman
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160428T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160428T130000
-DESCRIPTION:\nLaurel Drane Conley (Reijmers Lab) & Julie Hewitt Coleman (S
- chwob Lab) speaking\n\nContact: Shelley Antonio\nshelley.antonio@tufts.edu
- \n				617-636-3796\nhttp://sackler.tufts.edu/Calendar/2016/04/28/Neuroscie
- nce-Research-Series-Laurel-Drane-Conley-Julie-Coleman.aspx
+DESCRIPTION:Speaker(s): Laurel Drane Conley (Reijmers Lab) & Julie Hewitt 
+ Coleman (Schwob Lab)\n\nContact: Shelley Antonio\nshelley.antonio@tufts.ed
+ u\n617-636-3796\n\nhttp://sackler.tufts.edu/Calendar/2016/04/28/Neuroscien
+ ce-Research-Series-Laurel-Drane-Conley-Julie-Coleman.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Janna Bigalke
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160503T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160503T130000
-DESCRIPTION:\nJanna Bigalke speaking\n\nContact: Microbiology \n\n				617-
- 636-3451\nhttp://sackler.tufts.edu/Calendar/2016/05/03/Micro-Research-Repo
- rt-Janna-Bigalke.aspx
+DESCRIPTION:Speaker(s): Janna Bigalke\n\nContact: Microbiology \n617-636-3
+ 451\n\nhttp://sackler.tufts.edu/Calendar/2016/05/03/Micro-Research-Report-
+ Janna-Bigalke.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Seminar - Holger Sondermann
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160504T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160504T130000
-DESCRIPTION:\nHolger Sondermann\, PhD speaking\n\nContact: Microbiology \n
- \n				617-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/05/04/Micro-Sem
- inar-Holger-Sondermann.aspx
+DESCRIPTION:Speaker(s): Holger Sondermann\, PhD\n\nContact: Microbiology \
+ n617-636-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/05/04/Micro-Semina
+ r-Holger-Sondermann.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - PREP Scholar Presentations
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160505T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160505T130000
-DESCRIPTION:\nJean Rivera (Rios Lab)\, Alfred Rotimi (Jacob Lab)\, Temitop
- e Shoneye (Yang Lab) & Sadchla Mathieu (Jacob Lab) speaking\n\nContact: Sh
- elley Antonio\nshelley.antonio@tufts.edu\n				617-636-3796\nhttp://sackler
- .tufts.edu/Calendar/2016/05/05/Neuroscience-Research-Series-PREP-Scholar-P
- resentations.aspx
+DESCRIPTION:Speaker(s): Jean Rivera (Rios Lab)\, Alfred Rotimi (Jacob Lab)
+ \, Temitope Shoneye (Yang Lab) & Sadchla Mathieu (Jacob Lab)\n\nContact: S
+ helley Antonio\nshelley.antonio@tufts.edu\n617-636-3796\n\nhttp://sackler.
+ tufts.edu/Calendar/2016/05/05/Neuroscience-Research-Series-PREP-Scholar-Pr
+ esentations.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Elsa Bou Ghanem
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160510T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160510T130000
-DESCRIPTION:\nElsa Bou Ghanem speaking\n\nContact: Microbiology \n\n				61
- 7-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/05/10/Micro-Research-Re
- port-Elsa-Bou-Ghanem.aspx
+DESCRIPTION:Speaker(s): Elsa Bou Ghanem\n\nContact: Microbiology \n617-636
+ -3451\n\nhttp://sackler.tufts.edu/Calendar/2016/05/10/Micro-Research-Repor
+ t-Elsa-Bou-Ghanem.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Neuroscience Research Series - Chris Bartolome
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160512T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160512T130000
-DESCRIPTION:\nChris Bartolome (Kong Lab) speaking\n\nContact: Alison Hochl
- er\nalison.hochler@tufts.edu\n				617-636-3857\nhttp://sackler.tufts.edu/C
- alendar/2016/05/12/Neuroscience-Research-Series-Chris-Bartolome.aspx
+DESCRIPTION:Speaker(s): Chris Bartolome (Kong Lab)\n\nContact: Alison Hoch
+ ler\nalison.hochler@tufts.edu\n617-636-3857\n\nhttp://sackler.tufts.edu/Ca
+ lendar/2016/05/12/Neuroscience-Research-Series-Chris-Bartolome.aspx
 LOCATION:(Sackler 507) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Seminar - Joao Xavier
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160518T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160518T130000
-DESCRIPTION:\nJoao Xavier\, PhD speaking\n\nContact: Microbiology \n\n				
- 617-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/05/18/Micro-Seminar-J
- oao-Xavier.aspx
+DESCRIPTION:Speaker(s): Joao Xavier\, PhD\n\nContact: Microbiology \n617-6
+ 36-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/05/18/Micro-Seminar-Joao
+ -Xavier.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Micro Research Report - Joey Jabbour
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160519T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160519T130000
-DESCRIPTION:\nJoey Jabbour speaking\n\nContact: Microbiology \n\n				617-6
- 36-3451\nhttp://sackler.tufts.edu/Calendar/2016/05/19/Micro-Research-Repor
- t-Joey-Jabbour.aspx
+DESCRIPTION:Speaker(s): Joey Jabbour\n\nContact: Microbiology \n617-636-34
+ 51\n\nhttp://sackler.tufts.edu/Calendar/2016/05/19/Micro-Research-Report-J
+ oey-Jabbour.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
@@ -858,9 +986,12 @@ DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160520T170000
 DESCRIPTION:<p>Celebrate this year’s Sackler graduates and award recipie
  nts with an outdoor Taco Bar and beer &amp\; wine! </p><p>The Taco Bar wil
  l start at 3:30pm</p><p>The Graduation &amp\; Awards Ceremony will start a
- t 4:00pm.</p>\n\nContact: Jessica Wang-Strykowski\njessica.wang_strykowski
- @tufts.edu\n				617-636-6767\nhttp://sackler.tufts.edu/Calendar/2016/05/20
- /Sackler-Graduation-and-Awards-Reception.aspx
+ t 4:00pm.</p>\n\n<p>Celebrate this year’s Sackler graduates and award re
+ cipients with an outdoor Taco Bar and beer &amp\; wine! </p><p>The Taco Ba
+ r will start at 3:30pm</p><p>The Graduation &amp\; Awards Ceremony will st
+ art at 4:00pm.</p>\n\nContact: Jessica Wang-Strykowski\njessica.wang_stryk
+ owski@tufts.edu\n617-636-6767\n\nhttp://sackler.tufts.edu/Calendar/2016/05
+ /20/Sackler-Graduation-and-Awards-Reception.aspx
 LOCATION:(Jaharis Cafe & Courtyard) 150 Harrison Avenue\, Boston\, MA 0211
  1
 END:VEVENT
@@ -868,18 +999,18 @@ BEGIN:VEVENT
 SUMMARY:Micro Seminar - Ira Schwartz
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160608T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160608T130000
-DESCRIPTION:\nIra Schwartz\, PhD speaking\n\nContact: Microbiology \n\n			
- 	617-636-3451\nhttp://sackler.tufts.edu/Calendar/2016/06/08/Micro-Seminar-
- Ira-Schwartz.aspx
+DESCRIPTION:Speaker(s): Ira Schwartz\, PhD\n\nContact: Microbiology \n617-
+ 636-3451\n\nhttp://sackler.tufts.edu/Calendar/2016/06/08/Micro-Seminar-Ira
+ -Schwartz.aspx
 LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:MIRI Seminar - Karin Michels
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160617T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160617T130000
-DESCRIPTION:\nKarin Michels\, ScD PhD speaking\n\nContact: Roanna Forman\n
- rforman@tuftsmedicalcenter.org\n				617-636-1468\nhttp://sackler.tufts.edu
- /Calendar/2016/06/17/MIRI-Seminar-Karin-Michels.aspx
+DESCRIPTION:Speaker(s): Karin Michels\, ScD PhD\n\nContact: Roanna Forman\
+ nrforman@tuftsmedicalcenter.org\n617-636-1468\n\nhttp://sackler.tufts.edu/
+ Calendar/2016/06/17/MIRI-Seminar-Karin-Michels.aspx
 LOCATION:(Stearns Auditorium\, Farnsworth 1) 30 Bennet St.\, Boston\, MA 0
  2111
 END:VEVENT
@@ -887,9 +1018,9 @@ BEGIN:VEVENT
 SUMMARY:MIRI Seminar - Andrew Evens
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160715T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160715T130000
-DESCRIPTION:\nAndrew Evens speaking\n\nContact: Roanna Forman\nrforman@tuf
- tsmedicalcenter.org\n				617-636-1468\nhttp://sackler.tufts.edu/Calendar/2
- 016/07/15/MIRI-Seminar-Andrew-Evens.aspx
+DESCRIPTION:Speaker(s): Andrew Evens\n\nContact: Roanna Forman\nrforman@tu
+ ftsmedicalcenter.org\n617-636-1468\n\nhttp://sackler.tufts.edu/Calendar/20
+ 16/07/15/MIRI-Seminar-Andrew-Evens.aspx
 LOCATION:(Stearns Auditorium\, Farnsworth 1) 30 Bennet St\, Boston MA 0211
  1
 END:VEVENT
