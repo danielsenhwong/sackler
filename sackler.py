@@ -8,14 +8,15 @@
 
 # Import necessary libraries
 
-import feedparser
-import requests
-from bs4 import BeautifulSoup
-from icalendar import Calendar, Event
-from datetime import datetime
-from pytz import timezone
-import pytz
-from time import strptime, strftime
+import feedparser # Parse RSS feed
+import requests # Grab HTML
+from bs4 import BeautifulSoup # Process HTML
+from icalendar import Calendar, Event # Make iCal
+from datetime import datetime # Date/time processing
+from pytz import timezone # Timezone info for iCal
+import pytz # Timezone info for iCal
+from time import strptime, strftime # Date/time formatting
+import re # Regular expression for search
 
 def GrabRSS(url="http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={F3B13FCF-27A3-44A2-A1B9-4672F1034B91}"):
 	feed = feedparser.parse(url) # Parse the feed
@@ -56,7 +57,7 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 		e = Event() # Initialize a blank event
 		description = '' # Initialize the description string
 
-		e.add('summary', event['title']) # Give the event a title
+		summary_str = event['title'] # Start with the given title for the event
 
 		start_str = event['summary'].split('&')[0] # Break up the time string to find the start time
 
@@ -90,19 +91,37 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 			eg = vevent.find_all(class_='event-group') # Find the event-group divs
 			
 			try: # If there is event info, see if there is a speaker
-				speaker = vevent.find_all(class_='event-speaker')[0].h4.text.strip()
+				speaker =  vevent.find_all(class_='event-speaker')[0].h4.text.strip()
 			except IndexError:
 				speaker = None
 			finally:
-				if speaker is not None:
-					description = '%sSpeaker(s): %s\n\n' % (description, speaker)
+				if speaker:
+					description = '%sSpeaker(s): %s\n' % (description, speaker)
+
+			try: # See if there is an affiliation listed
+				affiliation = vevent.find_all(class_='affiliation')[0].text
+			except IndexError:
+				affiliation = None
+			finally:
+				if affiliation:
+					description = '%sAffiliation: %s\n' % (description, affiliation)
+			
+			try: # See if there is a seminar title
+				talk_title = vevent.find_all('p', {'id' : re.compile('.*seminarTitle')})[0].text
+			except IndexError:
+				talk_title = None
+			finally:
+				if talk_title:
+					description = '%s"%s"\n' % (description, talk_title) # Add the talk title to the description
+					summary_str = '%s, "%s"' % (summary_str, talk_title) # Also add the talk title to the event name
+
+			description = '%s\n' % description # add another new line
 
 			indicies = list(range(-3,0)) # Make a list of reverse indices
 			description_original = None
 			room = None
 			contact = None
 			location = ''
-			loc = None
 			for i in indicies:
 				try: # See if there is a room number and/or contact info
 					check_string = eg[i].contents[1].text
@@ -125,17 +144,18 @@ def ReadRSS(output_path="/var/www/sackler/public"):
 			try: # If there is event info, check to see if there is location info
 				loc = ''.join(str(l).strip() for l in vevent.find_all(class_='location')[0].span.contents).replace('<br/>',', ') # try and find location information and make it presentable
 			except IndexError: # If there's not, that's ok
-				pass
+				loc = None
 			finally:
 				if loc:
 					location = '%s %s' % (location, loc)
 		
-			e.add('location', location)
+			e.add('location', location) # Pass the location, if there is one, to the iCal event
 
 
 		except AttributeError: # In case some pages can't be loaded or don't have the vevent div, skip
 			pass
 
+		e.add('summary', summary_str) # Give the event a title
 		e.add('description', '%s%s' % (description, event['link'])) # Put the event page URL in the description of the event
 
 		cal.add_component(e) # Add the event to the calendar
