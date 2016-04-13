@@ -138,7 +138,8 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
                     summary_str = '%s, "%s"' % (summary_str, talk_title) # Also add the talk title to the event name
 
             description = '%s\n' % description # add another new line
-
+            
+            # Start checking for more detail
             indicies = list(range(-3,0)) # Make a list of reverse indices
             description_original = None
             room = None
@@ -186,7 +187,8 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
             e.add('dtend', dtend) # Give the event an end date and time if there is anything to add
         e.add('summary', summary_str) # Give the event a title
         e.add('description', '%s%s' % (description, event['link'])) # Put the event page URL in the description of the event
-
+        if location:
+            e.add('location', location)
         cal.add_component(e) # Add the event to the calendar
 
     # Export resulting calendar
