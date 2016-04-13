@@ -151,21 +151,21 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
                     if check_string == 'Contact Information':
                         contact = eg[i].contents[3].text.replace('\t', '').replace('\n\r\n', '\n').strip() # Remove all \r and \n from the ends, \t from the middle if there are any
                     elif check_string == 'Directions & Parking':
-                        room = str(eg[i].contents[2]).strip()
+                        room = unicode(eg[i].contents[2]).strip()
                     elif check_string == 'Description':
-                        description_original = ''.join(str(d).strip() for d in eg[i].contents[3:len(eg[i].contents)])
+                        description_original = ''.join(unicode(d).strip() for d in eg[i].contents[3:len(eg[i].contents)])
                 except (IndexError, AttributeError):
                     pass
                 finally:
                     if room:
                         location = '(%s)' % room
                     if description_original:
-                        description = '%s%s\n\n' % (description.decode, description_original.decode)
+                        description = '%s%s\n\n' % (description, description_original)
                     if contact:
-                        description = '%sContact: %s\n\n' % (description.decode, contact)
+                        description = '%sContact: %s\n\n' % (description, contact)
             
             try: # If there is event info, check to see if there is location info
-                loc = ''.join(str(l).strip() for l in vevent.find_all(class_='location')[0].span.contents).replace('<br/>',', ') # try and find location information and make it presentable
+                loc = ''.join(unicode(l).strip() for l in vevent.find_all(class_='location')[0].span.contents).replace('<br/>',', ') # try and find location information and make it presentable
             except IndexError: # If there's not, that's ok
                 loc = None
             finally:
