@@ -13,7 +13,7 @@ application = Flask(__name__)
 def hello():
 	return "Hello World!"
 
-@application.route("/calendar")
+@application.route("/calendar", defaults={'subcalendar': ''})
 @application.route("/calendar/<subcalendar>")
 def sackler(subcalendar=''):
 #	return Response(response=ReadRSS(), mimetype='text/calendar')
