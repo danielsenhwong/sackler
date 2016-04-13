@@ -190,8 +190,6 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
 
         cal.add_component(e) # Add the event to the calendar
 
-    print cal
-
     # Export resulting calendar
     result = cal.to_ical()
     destination = '%s/%s' % (output_path, 'calendar' + cal_suffix + '.ics')
