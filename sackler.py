@@ -53,7 +53,7 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
         rss_url = calendar_list[calendar]['rss_url']
         cal_name = calendar_list[calendar]['cal_name']
         cal_suffix = calendar_list[calendar]['cal_suffix']
-    
+
     cal = Calendar() # Initialize a blank calendar
 
     calendar_properties = {
