@@ -160,10 +160,10 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
                     if room:
                         location = '(%s)' % room
                     if description_original:
-                        description = '%s%s\n\n' % (description, description_original.decode)
+                        description = '%s%s\n\n' % (description.decode, description_original.decode)
                     if contact:
                         description = '%sContact: %s\n\n' % (description.decode, contact)
-
+            
             try: # If there is event info, check to see if there is location info
                 loc = ''.join(str(l).strip() for l in vevent.find_all(class_='location')[0].span.contents).replace('<br/>',', ') # try and find location information and make it presentable
             except IndexError: # If there's not, that's ok
