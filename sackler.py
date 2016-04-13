@@ -168,8 +168,7 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
             except IndexError: # If there's not, that's ok
                 loc = None
             finally:
-                if loc:
-                    location = '%s %s' % (location, loc)
+                location = '%s %s' % (location, loc)
 
             e.add('location', location) # Pass the location, if there is one, to the iCal event
 
