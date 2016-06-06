@@ -1,5 +1,5 @@
 #import sys
-from flask import Flask, Response
+from flask import Flask, Response, render_template
 from sackler import ReadRSS
 application = Flask(__name__)
 
@@ -10,8 +10,8 @@ application = Flask(__name__)
 #	return [bytes(str, 'UTF-8')]
 
 @application.route("/")
-def hello():
-	return "Hello World!"
+def index():
+	return render_template('index.html')
 
 @application.route("/calendar", defaults = {'subcalendar': 'sackler'})
 @application.route("/calendar/<subcalendar>")

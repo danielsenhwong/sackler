@@ -175,16 +175,16 @@ LOCATION:(Stearns Auditorium\, Farnsworth 1) 30 Bennet St.\, Boston\, MA 0
  2111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMDB / IPP Seminar\, "Astrocytes as therapeutic targets after brai
- n and spinal cord damage"
+SUMMARY:CMDB / IPP Seminar - Naomi Sayre\, "Astrocytes as therapeutic targ
+ ets after brain and spinal cord damage"
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160620T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160620T130000
 DESCRIPTION:Speaker(s): Naomi Sayre\, PhD\nAffiliation: University of Texa
  s Health Science Center at San Antonio\n"Astrocytes as therapeutic targets
   after brain and spinal cord damage"\n\nContact: Laura Liscum\nlaura.liscu
  m@tufts.edu\n6-6945\n\nhttp://sackler.tufts.edu/Calendar/2016/06/20/CMDB-I
- PP-Seminar.aspx
-LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston MA 02111
+ PP-Seminar-Naomi-Sayre.aspx
+LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sackler Running Club

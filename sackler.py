@@ -65,6 +65,11 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
             'cal_name': 'Molecular Microbiology Calendar',
             'cal_suffix': '_micro'
         },
+        'cmdb': {
+            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={39BDBCE0-8589-432A-8B13-DB805688ADCA}',
+            'cal_name': 'CMDB Calendar',
+            'cal_suffix': '_cmdb'
+        },
     }
 
     # Check to see which calendar is being requested.
