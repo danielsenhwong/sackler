@@ -60,15 +60,20 @@ def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
             'cal_name': 'Sackler Website Calendar',
             'cal_suffix': ''
         },
+        'cmdb': {
+            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={39BDBCE0-8589-432A-8B13-DB805688ADCA}',
+            'cal_name': 'CMDB Calendar',
+            'cal_suffix': '_cmdb'
+        },
         'micro': {
             'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={99F45320-2EA7-4996-B9D0-32B367C82440}',
             'cal_name': 'Molecular Microbiology Calendar',
             'cal_suffix': '_micro'
         },
-        'cmdb': {
-            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={39BDBCE0-8589-432A-8B13-DB805688ADCA}',
-            'cal_name': 'CMDB Calendar',
-            'cal_suffix': '_cmdb'
+        'neuro': {
+            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={E8AA928B-3EB7-49B8-9DE4-4909DFA5D732}',
+            'cal_name': 'Neuroscience Calendar',
+            'cal_suffix': '_neuro'
         },
     }
 
