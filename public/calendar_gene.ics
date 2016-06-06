@@ -1,0 +1,17 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Genetics Calendar\, parsed (Daniel Senh Wong)//sackler.tufts.edu
+ //EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:This is the iCal-formatted version of the calendar presented 
+ on the Tufts Sackler school website (sackler.tufts.edu). It is generated e
+ very morning at 4 AM by a Python script that reads the calendar's RSS feed
+ \, then retrieves the event details from the individual event pages.\n\nTh
+ e script feeding this calendar was written and is maintained by Daniel Won
+ g (PhD Candidate\, Jay Lab/CMP) (daniel_s.wong@tufts.edu / danielsenhwong@
+ gmail.com)\, and not by the Sackler Dean's Office. Please direct any quest
+ ions\, suggestions\, or requests to me directly.
+X-WR-CALNAME:Genetics Calendar
+X-WR-TIMEZONE:America/New_York
+END:VCALENDAR

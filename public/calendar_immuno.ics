@@ -1,0 +1,28 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Immunology Calendar\, parsed (Daniel Senh Wong)//sackler.tufts.e
+ du//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALDESC:This is the iCal-formatted version of the calendar presented 
+ on the Tufts Sackler school website (sackler.tufts.edu). It is generated e
+ very morning at 4 AM by a Python script that reads the calendar's RSS feed
+ \, then retrieves the event details from the individual event pages.\n\nTh
+ e script feeding this calendar was written and is maintained by Daniel Won
+ g (PhD Candidate\, Jay Lab/CMP) (daniel_s.wong@tufts.edu / danielsenhwong@
+ gmail.com)\, and not by the Sackler Dean's Office. Please direct any quest
+ ions\, suggestions\, or requests to me directly.
+X-WR-CALNAME:Immunology Calendar
+X-WR-TIMEZONE:America/New_York
+BEGIN:VEVENT
+SUMMARY:Immunology Thesis Defense - Jacob Ludington\, "The role of a novel
+  protozoan C-type lectin in Cryptosporidium-host cell interactions"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160614T100000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160614T110000
+DESCRIPTION:Speaker(s): Jacob G Ludington\nAffiliation: Ward Lab\n"The rol
+ e of a novel protozoan C-type lectin in Cryptosporidium-host cell interact
+ ions"\n\nhttp://sackler.tufts.edu/Academics/Immunology-Welcome/Immunology-
+ Calendar/2016/06/14/Immunology-Thesis-Defense-Jacob-Ludington.aspx
+LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+END:VCALENDAR

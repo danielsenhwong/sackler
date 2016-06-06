@@ -25,6 +25,45 @@ import pytz # Timezone info for iCal
 from time import strptime, strftime # Date/time formatting
 import re # Regular expression for search
 
+# Define some global variables
+CALENDAR_LIST = {
+    'sackler': {
+        'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={F3B13FCF-27A3-44A2-A1B9-4672F1034B91}',
+        'cal_name': 'Sackler Website Calendar',
+        'cal_suffix': ''
+    },
+    'cmdb': {
+        'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={39BDBCE0-8589-432A-8B13-DB805688ADCA}',
+        'cal_name': 'CMDB Calendar',
+        'cal_suffix': '_cmdb'
+    },
+    'gene': {
+        'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={9B68062A-159E-4A1F-BDD6-2B1E061021E2}',
+        'cal_name': 'Genetics Calendar',
+        'cal_suffix': '_gene'
+    },
+    'immuno': {
+        'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={47196DC1-83BE-4130-9460-C1DCA35ED6C8}',
+        'cal_name': 'Immunology Calendar',
+        'cal_suffix': '_immuno'
+    },
+    'micro': {
+        'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={99F45320-2EA7-4996-B9D0-32B367C82440}',
+        'cal_name': 'Molecular Microbiology Calendar',
+        'cal_suffix': '_micro'
+    },
+    'neuro': {
+        'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={E8AA928B-3EB7-49B8-9DE4-4909DFA5D732}',
+        'cal_name': 'Neuroscience Calendar',
+        'cal_suffix': '_neuro'
+    },
+    'ppet': {
+        'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={265339A2-4E3D-4BC0-A4DE-B4E9786BEA1F}',
+        'cal_name': 'PPET Calendar',
+        'cal_suffix': '_ppet'
+    },
+}
+
 # Break out the different small functions, like pulling the RSS feed
 # Can be re-used to read any feed, but will read the full Sackler calendar by
 # default.
@@ -49,40 +88,25 @@ def GrabPage(url):
     finally:
         return vevent
 
+def ReadAllRSS():
+    # Read all defined calendars in CALENDAR_LIST
+    results = []
+    for calendarName in CALENDAR_LIST:
+        results.append(ReadRSS(calendar=calendarName))
+
+    return results
+        
+
 def ReadRSS(calendar="sackler", output_path="/var/www/sackler/public"):
     #####
     # Process incoming parameters
     #####
-    # Make a dictionary list of the calendars, with dictionary of dependent variables
-    calendar_list = { 
-        'sackler': {
-            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={F3B13FCF-27A3-44A2-A1B9-4672F1034B91}',
-            'cal_name': 'Sackler Website Calendar',
-            'cal_suffix': ''
-        },
-        'cmdb': {
-            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={39BDBCE0-8589-432A-8B13-DB805688ADCA}',
-            'cal_name': 'CMDB Calendar',
-            'cal_suffix': '_cmdb'
-        },
-        'micro': {
-            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={99F45320-2EA7-4996-B9D0-32B367C82440}',
-            'cal_name': 'Molecular Microbiology Calendar',
-            'cal_suffix': '_micro'
-        },
-        'neuro': {
-            'rss_url': 'http://sackler.tufts.edu/Sites/Common/Data/CalendarFeed.ashx?cid={E8AA928B-3EB7-49B8-9DE4-4909DFA5D732}',
-            'cal_name': 'Neuroscience Calendar',
-            'cal_suffix': '_neuro'
-        },
-    }
-
     # Check to see which calendar is being requested.
     # Set up variables accordingly.
-    if calendar in calendar_list:
-        rss_url = calendar_list[calendar]['rss_url']
-        cal_name = calendar_list[calendar]['cal_name']
-        cal_suffix = calendar_list[calendar]['cal_suffix']
+    if calendar in CALENDAR_LIST:
+        rss_url = CALENDAR_LIST[calendar]['rss_url']
+        cal_name = CALENDAR_LIST[calendar]['cal_name']
+        cal_suffix = CALENDAR_LIST[calendar]['cal_suffix']
 
     #####
     # Start building the calendar
