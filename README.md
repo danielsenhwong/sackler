@@ -11,6 +11,8 @@ A script to parse the Sackler school calendar RSS feed and output an iCal calend
 **Location** The building and room number of the event, if provided, is added to the beginning of the iCal `LOCATION` field in parentheses, which includes the information, but tells Google Maps to ignore that detail when trying to map the address.
 
 ### Recent updates ###
+_**2016 Jun 6**_ Added RSS information for CMDB, Genetics, Immunology, Neuroscience, and PPET Programs. The run_sackler.py script now calls ReadAllRSS(), which parses all calendar feeds in CALENDAR_LIST. Permissions for the run_sackler.py script were also changed to u+x to allow for the cron-scheduled task to run.
+
 _**2016 Apr 13**_ Added the ability to parse specific calendars from the Sackler website. Currently only enabled for Microbiology, which was specifically requested. Enabling this function for additional calendars just requires adding a new dictionary entry to `calendar_list` dictionary in `sackler/ReadRSS()`. Necessary items are the RSS feed URL as `rss_url`, a proper name/title for the calendar as `cal_name`, and a suffix for naming the ICS file as `cal_suffix`.
 
 Modified the URL routing in `passenger_wsgi.py` to handle subcalendars.The subcalendar stub should match the short name used as the dictionary key for that calendar in `sackler.py`.

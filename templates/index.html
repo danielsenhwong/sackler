@@ -6,7 +6,10 @@
 
 {% block content %}
     <h2>Website to iCal Calendar Conversion</h2>
-    
+    <p>This is a Python script that parses the Tufts Sackler School website calendar RSS feed into an iCal format that can be subscribed to in Google Calendar, Apple Calendar, Microsoft Outlook, and other similar programs.</p>
+    <p>The information is re-formatted from the RSS feed into a more compact layout. In particular, the room number of an event is incorporated into the iCal Location information for an event in parentheses. This allows for human readability while maintaining compatability with Google Maps for mobile device users.</p>
+    <p>The script is scheduled to run and update all defined calendars at 4 AM daily.</p>
+    <p>Source code is available on GitHub: <a href="https://github.com/danielsenhwong/sackler">danielsenhwong/sackler</a>.</p>
     <ul>
         <li><a href="calendar.ics">Sackler-wide calendar</a><br />Subscription URL: http://sackler.danielsenhwong.com/calendar.ics</li>
         <li><a href="calendar_cmdb.ics">CMDB program calendar (also merged Biochem and CMP)</a><br />Subscription URL: http://sackler.danielsenhwong.com/calendar_cmdb.ics</li>
