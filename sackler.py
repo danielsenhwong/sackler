@@ -13,6 +13,11 @@
 # to the event page URL and parse the HTML from the page.
 #
 # Once done, take this data and populate a new Google Calendar.
+#
+# Might be nice to also do some basic analytics on accession data by using
+# access logs in /var/log/httpd/. As of Jun 8, ~47 users requested the
+# various calendars. Some of these only appear once, e.g. Google Calendar
+# though I suspect it is more than one user.
 
 # Import necessary libraries
 import feedparser # Parse RSS feed
