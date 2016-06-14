@@ -15,15 +15,6 @@ X-WR-CALDESC:This is the iCal-formatted version of the calendar presented
 X-WR-CALNAME:Sackler Website Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160606T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160606T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/06/06/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
-END:VEVENT
-BEGIN:VEVENT
 SUMMARY:Micro Seminar - Ira Schwartz\, "TBA"
 DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160608T120000
 DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160608T130000
@@ -258,6 +249,17 @@ DESCRIPTION:\n<p>Not sure how to include scientific rigor and transparency
  rt-Feedback-on-NIH-Rigor-and-Transparency-Guidelines.aspx
 LOCATION:(Jaharis Building\, Behrakis Auditorium) 150 Harrison Avenue\, Bo
  ston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:MIRI Seminar - Laura Goetzl\, "In vivo Models for Assessing Fetal 
+ Neurodevelopmental Injuries"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160624T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160624T130000
+DESCRIPTION:Speaker(s): Laura Goetzl\, MD\, MPH\nAffiliation: Temple Unive
+ rsity\, Lewis Katz Sch. Med.\n"In vivo Models for Assessing Fetal Neurodev
+ elopmental Injuries"\n\nhttp://sackler.tufts.edu/Calendar/2016/06/24/MIRI-
+ Seminar-Laura-Goetzl.aspx
+LOCATION: 30 Bennet St\, Boston MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Sackler Running Club
