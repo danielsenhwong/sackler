@@ -1,10 +1,10 @@
-from sackler import ReadAllRSS
+"""run_sackler.py
+A unified script to run Sackler RSS to iCal conversion updates from the
+command line.
+"""
 import pprint
+from sackler import read_all_rss
 
-ics = ReadAllRSS()
-#ics_micro = ReadRSS('micro')
-#ics_cmdb = ReadRSS('cmdb')
-#ics_neuro = ReadRSS('neuro')
-pp = pprint.PrettyPrinter(indent=4)
-pp.pprint(ics)
-#pp.pprint(ics_micro)
+ICS = read_all_rss()
+PP = pprint.PrettyPrinter(indent=4)
+PP.pprint(ICS)
