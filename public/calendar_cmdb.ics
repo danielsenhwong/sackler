@@ -3,26 +3,115 @@ VERSION:2.0
 PRODID:-//CMDB Calendar\, parsed (Daniel Senh Wong)//sackler.tufts.edu//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:This is the iCal-formatted version of the calendar presented 
- on the Tufts Sackler school website (sackler.tufts.edu). It is generated e
- very morning at 4 AM by a Python script that reads the calendar's RSS feed
- \, then retrieves the event details from the individual event pages.\n\nTh
- e script feeding this calendar was written and is maintained by Daniel Won
- g (PhD Candidate\, Jay Lab/CMP) (daniel_s.wong@tufts.edu / danielsenhwong@
- gmail.com)\, and not by the Sackler Dean's Office. Please direct any quest
- ions\, suggestions\, or requests to me directly.
+X-WR-CALDESC:This is the iCal-formatted version of the calendarpresented o
+ n the Tufts Sackler school website (sackler.tufts.edu). It is generated ev
+ ery morning at 4 AM by a Python script that reads the calendar's RSS feed\
+ , then retrieves the event details from the individual event pages.\n\nThe
+  script feeding this calendar was written and is maintained by Daniel Wong
+  (PhD Candidate\, Jay Lab/CMP) (daniel_s.wong@tufts.edu / danielsenhwong@g
+ mail.com)\, and not bythe Sackler Dean's Office. Please direct any questio
+ ns\, suggestions\, or requests to me directly.
 X-WR-CALNAME:CMDB Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:CMDB / IPP Seminar - Naomi Sayre\, "Astrocytes as therapeutic targ
- ets after brain and spinal cord damage"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160620T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160620T130000
-DESCRIPTION:Speaker(s): Naomi Sayre\, PhD\nAffiliation: University of Texa
- s Health Science Center at San Antonio\n"Astrocytes as therapeutic targets
-  after brain and spinal cord damage"\n\nContact: Laura Liscum\nlaura.liscu
- m@tufts.edu\n6-6945\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMD
- B-Calendar/2016/06/20/CMDB-IPP-Seminar-Naomi-Sayre.aspx
-LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston\, MA 02111
+SUMMARY:CMDB/DMCB Seminar - Malcolm Whitman\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160913T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160913T130000
+DESCRIPTION:Speaker(s): Malcolm Whitman\, PhD\nAffiliation: Harvard School
+  of Dental Medicine\n"TBA"\n\nContact: Anne Marie Brock\nanne_marie.brock@
+ tufts.edu\n617-636-0394\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome
+ /CMDB-Calendar/2016/09/13/CMDBDMCB-Seminar-Malcolm-Whitman.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB/DMCB Seminar - Ralph Isberg\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T130000
+DESCRIPTION:Speaker(s): Ralph Isberg\, PhD\nAffiliation: TBA\n"TBA"\n\nCon
+ tact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-3514\n\nht
+ tp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/09/20/CMD
+ BDMCB-Seminar-Ralph-Isberg.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Thesis Defense - Brian Lin\, "Walk This Way: Stepping Backk a
+ long the Lineage Highway with Progenitor Cells of the Olfactory Epithelium
+ "
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T133000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T143000
+DESCRIPTION:Speaker(s): Brian Lin\nAffiliation: Schwob Lab\n"Walk This Way
+ : Stepping Backk along the Lineage Highway with Progenitor Cells of the Ol
+ factory Epithelium"\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMD
+ B-Calendar/2016/09/20/CMDB-Thesis-Defense-Brian-Lin.aspx
+LOCATION:(Sackler 114) 136 Harrison Ave\, Boston\, MA  02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Thesis Defense - Mengqi Huang\, "TBD"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T103000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T113000
+DESCRIPTION:Speaker(s): Mengqi Huang\nAffiliation: Garlick Lab\n"TBD"\n\nh
+ ttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/09/27/CM
+ DB-Thesis-Defense-Mengqi-Huang.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Adam Martin\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T130000
+DESCRIPTION:Speaker(s): Adam Martin\, PhD\nAffiliation: MIT\n"TBA"\n\nCont
+ act: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-3514\n\nhtt
+ p://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/09/27/DMCB
+ CMDB-Seminar-Adam-Martin.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Brent Cochran\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161004T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161004T130000
+DESCRIPTION:Speaker(s): Brent Cochran\, PhD\nAffiliation: Tufts University
+ \n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-
+ 636-3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/
+ 2016/10/04/DMCBCMDB-Seminar-Brent-Cochran.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Peter Juo\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161011T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161011T130000
+DESCRIPTION:Speaker(s): Peter Juo\, PhD\nAffiliation: Tufts University\n"T
+ BA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-
+ 3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016
+ /10/11/DMCBCMDB-Seminar-Peter-Juo.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Catherine Collins\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161018T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161018T130000
+DESCRIPTION:Speaker(s): Catherine Collins\, PhD\nAffiliation: University o
+ f Michigan \n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft
+ s.edu\n617-636-3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMD
+ B-Calendar/2016/10/18/DMCBCMDB-Seminar-Catherine-Collins.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Johannes Walter\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161101T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161101T130000
+DESCRIPTION:Speaker(s): Johannes Walter\, PhD\nAffiliation: Harvard Medica
+ l\n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617
+ -636-3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar
+ /2016/11/01/DMCBCMDB-Seminar-Johannes-Walter.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar-Dan Jay\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161115T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161115T130000
+DESCRIPTION:Speaker(s): Dan Jay\, PhD\nAffiliation: Tufts University\n"TBA
+ "\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-35
+ 14\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/1
+ 1/15/DMCBCMDB-SeminarDan-Jay.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 END:VCALENDAR

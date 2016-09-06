@@ -4,405 +4,633 @@ PRODID:-//Sackler Website Calendar\, parsed (Daniel Senh Wong)//sackler.tu
  fts.edu//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALDESC:This is the iCal-formatted version of the calendar presented 
- on the Tufts Sackler school website (sackler.tufts.edu). It is generated e
- very morning at 4 AM by a Python script that reads the calendar's RSS feed
- \, then retrieves the event details from the individual event pages.\n\nTh
- e script feeding this calendar was written and is maintained by Daniel Won
- g (PhD Candidate\, Jay Lab/CMP) (daniel_s.wong@tufts.edu / danielsenhwong@
- gmail.com)\, and not by the Sackler Dean's Office. Please direct any quest
- ions\, suggestions\, or requests to me directly.
+X-WR-CALDESC:This is the iCal-formatted version of the calendarpresented o
+ n the Tufts Sackler school website (sackler.tufts.edu). It is generated ev
+ ery morning at 4 AM by a Python script that reads the calendar's RSS feed\
+ , then retrieves the event details from the individual event pages.\n\nThe
+  script feeding this calendar was written and is maintained by Daniel Wong
+  (PhD Candidate\, Jay Lab/CMP) (daniel_s.wong@tufts.edu / danielsenhwong@g
+ mail.com)\, and not bythe Sackler Dean's Office. Please direct any questio
+ ns\, suggestions\, or requests to me directly.
 X-WR-CALNAME:Sackler Website Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:Micro Seminar - Ira Schwartz\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160608T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160608T130000
-DESCRIPTION:Speaker(s): Ira Schwartz\, PhD\nAffiliation: New York Medical 
- College\n"TBA"\n\nContact: Microbiology \n617-636-3451\n\nhttp://sackler.t
- ufts.edu/Calendar/2016/06/08/Micro-Seminar-Ira-Schwartz.aspx
-LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
+SUMMARY:Library Workshop - Approaching the Literature Review
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160906T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160906T100000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/09/06/Library-Workshop-Appro
+ aching-the-Literature-Review.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:MASS AWIS: Powerful First Impressions
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160608T173000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160608T203000
-DESCRIPTION:Speaker(s): Doreen Dove\n\n<p>How you present yourself to pros
- pective employers or clients makes a powerful statement about who you are 
- and what you have to offer. In this session\, Doreen will reveal valuable 
- information about what your public image communicates about you\, and tips
-  to up-level your style and confidence opening more doors and career oppor
- tunities.</p><p>Speaker: Doreen Dove is an award-winning image consultant\
- , speaker and author of “Confidence is Always in Style.” She coaches w
- omen to use style to take strategic control of their image\, personal and 
- professional brand\, and fully engage in the possibilities of their future
- . If you are a student looking for financial assistance to attend this eve
- nt\, please visit <a href="http://www.stayinma.com" target="_blank" title=
- "MASS AWIS event financial assistance">www.stayinma.com</a>.</p>\n\n<p>How
-  you present yourself to prospective employers or clients makes a powerful
-  statement about who you are and what you have to offer. In this session\,
-  Doreen will reveal valuable information about what your public image comm
- unicates about you\, and tips to up-level your style and confidence openin
- g more doors and career opportunities.</p><p>Speaker: Doreen Dove is an aw
- ard-winning image consultant\, speaker and author of “Confidence is Alwa
- ys in Style.” She coaches women to use style to take strategic control o
- f their image\, personal and professional brand\, and fully engage in the 
- possibilities of their future. If you are a student looking for financial 
- assistance to attend this event\, please visit <a href="http://www.stayinm
- a.com" target="_blank" title="MASS AWIS event financial assistance">www.st
- ayinma.com</a>.</p>\n\nContact: Jaclyn Dunphy\n3307019789\n\nhttp://sackle
- r.tufts.edu/Calendar/2016/06/08/MASS-AWIS-Powerful-First-Impressions.aspx
-LOCATION:(The Harvard MCB Auditorium) 16 Divinity Avenue\, Cambridge\, MA 
- 02138
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Getting your paper published – An Editors Perspective\, "Getting
-  your paper published – An Editors Perspective"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160609T170000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160609T180000
-DESCRIPTION:Speaker(s): Shawnna Buttery\, PhD\nAffiliation: Scientific Edi
- tor of Elsevier’s BBA-Molecular Cell Research and BBA-Proteins and Prote
- omics\n"Getting your paper published – An Editors Perspective"\n\n<p>Joi
- n Shawnna Buttery PhD\, Scientific Editor of Elsevier’s BBA-Molecular Ce
- ll Research and BBA-Proteins and Proteomics talk about how to get your pap
- er published!!</p><p>This talk affords the unique perspective of the Scien
- tific Editor in the publishing process. The seminar walks the audience thr
- ough the writing\, submission\, and acceptance process with “pro-tips”
-  about how to get your paper noticed by the scientific editor and by the r
- eaders. The seminar includes ample time for questions and answers about pu
- blishing in scientific journals.</p><p>About our Speaker:<br/>\nDr. Shawnn
- a Buttery is a Scientific Editor for BBA-Molecular Cell Research. She rece
- ived her PhD in cell biology from Florida State University and conducted p
- ost doc research at the Dana-Farber Cancer Institute and Harvard Medical S
- chool\, where her research focused on the actin cytoskeleton in budding ye
- ast.  Shawnna joined Elsevier in 2012. You can follow her on Twitter @yeas
- tgrrl.</p>\n\n<p>Join Shawnna Buttery PhD\, Scientific Editor of Elsevier
- ’s BBA-Molecular Cell Research and BBA-Proteins and Proteomics talk abou
- t how to get your paper published!!</p><p>This talk affords the unique per
- spective of the Scientific Editor in the publishing process. The seminar w
- alks the audience through the writing\, submission\, and acceptance proces
- s with “pro-tips” about how to get your paper noticed by the scientifi
- c editor and by the readers. The seminar includes ample time for questions
-  and answers about publishing in scientific journals.</p><p>About our Spea
- ker:<br/>\nDr. Shawnna Buttery is a Scientific Editor for BBA-Molecular Ce
- ll Research. She received her PhD in cell biology from Florida State Unive
- rsity and conducted post doc research at the Dana-Farber Cancer Institute 
- and Harvard Medical School\, where her research focused on the actin cytos
- keleton in budding yeast.  Shawnna joined Elsevier in 2012. You can follow
-  her on Twitter @yeastgrrl.</p>\n\nContact: Ania Wronski\nanna.wronski@tuf
- ts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/06/09/Getting-your-paper-
- published-An-Editors-Perspective.aspx
-LOCATION:(Sackler 216A) 145 Harrison Ave\, Boston MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Tufts Mentoring Circles Closing Event\, "TBD"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160609T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160609T190000
-DESCRIPTION:Speaker(s): Dan Jay\nAffiliation: DMCB\n"TBD"\n\n<a href="http
- ://tuftsclosingcircle.eventbrite.com" target="_blank" title="Mentoring Cir
- cle Closing Event registration">tuftsclosingcircle.eventbrite.com</a>.\n\n
- <a href="http://tuftsclosingcircle.eventbrite.com" target="_blank" title="
- Mentoring Circle Closing Event registration">tuftsclosingcircle.eventbrite
- .com</a>.\n\nContact: Siobhan McRee\ntuftsmentoring@gmail.com\n\nhttp://sa
- ckler.tufts.edu/Calendar/2016/06/09/Tufts-Mentoring-Circles-Closing-Event.
- aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160613T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160613T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/06/13/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Immunology Thesis Defense - Jacob Ludington\, "The role of a novel
-  protozoan C-type lectin in Cryptosporidium-host cell interactions"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160614T100000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160614T110000
-DESCRIPTION:Speaker(s): Jacob G Ludington\nAffiliation: Ward Lab\n"The rol
- e of a novel protozoan C-type lectin in Cryptosporidium-host cell interact
- ions"\n\nhttp://sackler.tufts.edu/Calendar/2016/06/14/Immunology-Thesis-De
- fense-Jacob-Ludington.aspx
-LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Gene\, Immuno\, Micro Seminar - Daniel Stetson\, "Nucleic Acid Det
- ection in Host Defense and Autoimmunity"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160615T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160615T130000
-DESCRIPTION:Speaker(s): Daniel Stetson\nAffiliation: University of Washing
- ton\n"Nucleic Acid Detection in Host Defense and Autoimmunity"\n\nhttp://s
- ackler.tufts.edu/Calendar/2016/06/15/Gene-Immuno-Micro-Seminar-Daniel-Stet
- son.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Neuroscience Thesis Defense - Julie Hewitt Coleman\, "Nature vs. N
- urture: Neuronal Diversification in the Olfactory Epithelium"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160615T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160615T130000
-DESCRIPTION:Speaker(s): Julie Hewitt Coleman\nAffiliation: Schwob Lab\, Ne
- uroscience Graduate Program\n"Nature vs. Nurture: Neuronal Diversification
-  in the Olfactory Epithelium"\n\nContact: Shelley Antonio\nshelley.antonio
- @tufts.edu\n617-636-3796\n\nhttp://sackler.tufts.edu/Calendar/2016/06/15/N
- euroscience-Thesis-Defense-Julie-Hewitt-Coleman.aspx
-LOCATION:(Behrakis Auditorium\, Jaharis Building) 150 Harrison Avenue\, Bo
- ston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MIRI Seminar - Karin Michels\, "The Role of Epigenetics in the Dev
- elopmental Origins of Health and Disease "
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160617T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160617T130000
-DESCRIPTION:Speaker(s): Karin Michels\, ScD PhD\nAffiliation: Brigham & Wo
- men's Hospital\n"The Role of Epigenetics in the Developmental Origins of H
- ealth and Disease "\n\nContact: Roanna Forman\nrforman@tuftsmedicalcenter.
- org\n617-636-1468\n\nhttp://sackler.tufts.edu/Calendar/2016/06/17/MIRI-Sem
- inar-Karin-Michels.aspx
-LOCATION:(Stearns Auditorium\, Farnsworth 1) 30 Bennet St.\, Boston\, MA 0
- 2111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:CMDB / IPP Seminar - Naomi Sayre\, "Astrocytes as therapeutic targ
- ets after brain and spinal cord damage"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160620T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160620T130000
-DESCRIPTION:Speaker(s): Naomi Sayre\, PhD\nAffiliation: University of Texa
- s Health Science Center at San Antonio\n"Astrocytes as therapeutic targets
-  after brain and spinal cord damage"\n\nContact: Laura Liscum\nlaura.liscu
- m@tufts.edu\n6-6945\n\nhttp://sackler.tufts.edu/Calendar/2016/06/20/CMDB-I
- PP-Seminar-Naomi-Sayre.aspx
-LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160620T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160620T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/06/20/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Comparative Effectiveness Workshop
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160621T090000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160621T160000
-DESCRIPTION:\n<p>Interested in comparative effectiveness research (CER)? <
- /p><p>Want to meet collaborators and develop grant proposals?</p><p>Join T
- ufts CTSI for a CER Workshop. This interactive event will focus on several
-  CER use cases\, with the goal of assisting teams to develop research proj
- ect proposals for future grant submissions.</p><p>Five projects will be pr
- esented and discussed.</p><p>All are welcome to attend!</p>Please<a href="
- http://www.tuftsctsi.org/registration-comparative-effectiveness-workshop/"
-  target="_blank" title="Registration">register here</a>\n\n<p>Interested i
- n comparative effectiveness research (CER)? </p><p>Want to meet collaborat
- ors and develop grant proposals?</p><p>Join Tufts CTSI for a CER Workshop.
-  This interactive event will focus on several CER use cases\, with the goa
- l of assisting teams to develop research project proposals for future gran
- t submissions.</p><p>Five projects will be presented and discussed.</p><p>
- All are welcome to attend!</p>Please<a href="http://www.tuftsctsi.org/regi
- stration-comparative-effectiveness-workshop/" target="_blank" title="Regis
- tration">register here</a>\n\nContact: info@tuftsctsi.org\n\nhttp://sackle
- r.tufts.edu/Calendar/2016/06/21/Comparative-Effectiveness-Workshop.aspx
-LOCATION:(Room 114) 145 Harrison Avenue\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:PPET Thesis Defense - Malek L Najjar\, "RIPK1 and RIPK3 kinases pr
- omote cell death-independent inflammation by TLR4-TRIF"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160622T110000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160622T123000
-DESCRIPTION:Speaker(s): Malek L Najjar\nAffiliation: Graduate Program in P
- harmacology & Experimental Therapeutics\, Sackler School at Tufts Universi
- ty School of Medicine- Deterev Lab\n"RIPK1 and RIPK3 kinases promote cell 
- death-independent inflammation by TLR4-TRIF"\n\nContact: Emmanuel Pothos\,
-  PhD\nemmanuel.pothos@tufts.edu\n636-6778\n\nhttp://sackler.tufts.edu/Cale
- ndar/2016/06/22/PPET-Thesis-Defense-Malek-L-Najjar.aspx
-LOCATION:(SK 114) 145 Harrison Ave\, Boston MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Expert Feedback on NIH Rigor and Transparency Guidelines
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160623T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160623T133000
-DESCRIPTION:\n<p>Not sure how to include scientific rigor and transparency
-  in your next grant proposal? Get advice from faculty members who particip
- ated in recent NIH study sections at Expert Feedback on NIH Rigor and Tra
- nsparency Guidelines. </p><p>A live webcast will also be available.</p><p>
- The Department of Labor overtime pay protections under the Fair Labor Stan
- dards Act will also be discussed.</p><p>To attend\, please register here: 
- <a href="http://www.tuftsctsi.org/registration-expert-feedback-on-nih-rigo
- r-and-transparency-guidelines/" target="_blank" title="CTSI seminar regist
- ration">http://www.tuftsctsi.org/registration-expert-feedback-on-nih-rigor
- -and-transparency-guidelines/</a></p>\n\n<p>Not sure how to include scient
- ific rigor and transparency in your next grant proposal? Get advice from f
- aculty members who participated in recent NIH study sections at Expert Fe
- edback on NIH Rigor and Transparency Guidelines. </p><p>A live webcast wil
- l also be available.</p><p>The Department of Labor overtime pay protection
- s under the Fair Labor Standards Act will also be discussed.</p><p>To atte
- nd\, please register here: <a href="http://www.tuftsctsi.org/registration-
- expert-feedback-on-nih-rigor-and-transparency-guidelines/" target="_blank"
-  title="CTSI seminar registration">http://www.tuftsctsi.org/registration-e
- xpert-feedback-on-nih-rigor-and-transparency-guidelines/</a></p>\n\nContac
- t: info@tuftsctsi.org\n\nhttp://sackler.tufts.edu/Calendar/2016/06/23/Expe
- rt-Feedback-on-NIH-Rigor-and-Transparency-Guidelines.aspx
-LOCATION:(Jaharis Building\, Behrakis Auditorium) 150 Harrison Avenue\, Bo
- ston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MIRI Seminar - Laura Goetzl\, "In vivo Models for Assessing Fetal 
- Neurodevelopmental Injuries"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160624T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160624T130000
-DESCRIPTION:Speaker(s): Laura Goetzl\, MD\, MPH\nAffiliation: Temple Unive
- rsity\, Lewis Katz Sch. Med.\n"In vivo Models for Assessing Fetal Neurodev
- elopmental Injuries"\n\nhttp://sackler.tufts.edu/Calendar/2016/06/24/MIRI-
- Seminar-Laura-Goetzl.aspx
-LOCATION: 30 Bennet St\, Boston MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160627T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160627T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/06/27/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160711T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160711T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/07/11/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:MIRI Seminar - Andrew Evens\, "Lymphoma Occurring During Pregnancy
- : Antenatal Therapy\, Complications\, and Maternal Survival"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160715T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160715T130000
-DESCRIPTION:Speaker(s): Andrew Evens\nAffiliation: Tufts Medical Center\n"
- Lymphoma Occurring During Pregnancy: Antenatal Therapy\, Complications\, a
- nd Maternal Survival"\n\nContact: Roanna Forman\nrforman@tuftsmedicalcente
- r.org\n617-636-1468\n\nhttp://sackler.tufts.edu/Calendar/2016/07/15/MIRI-S
- eminar-Andrew-Evens.aspx
-LOCATION:(Stearns Auditorium\, Farnsworth 1) 30 Bennet St\, Boston MA 0211
+SUMMARY:Sackler Orientation Reception
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160906T153000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160906T170000
+DESCRIPTION:\nContact: sackler-school@tufts.edu\n\nhttp://sackler.tufts.ed
+ u/Calendar/2016/09/06/Sackler-Orientation-Reception.aspx
+LOCATION:(Jaharis Café and Courtyard) 150 Harrison Ave\, Boston\, MA 0211
  1
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160718T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160718T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/07/18/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) 150 Harrison Avenue\, Boston\, MA 02111\
- , 
+SUMMARY:Sackler GSC Welcome Picnic
+DTSTART;VALUE=DATE:20160907
+DTEND;VALUE=DATE:20160915
+DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/09/15/Sackler-GSC-Wel
+ come-Picnic.aspx
+LOCATION:(Jaharis Cafe & Courtyard) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160725T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160725T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/07/25/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
+SUMMARY:Library Workshop - Approaching the Literature Review
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160907T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160907T170000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/09/07/Library-Workshop-Appro
+ aching-the-Literature-Review.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sackler Relays
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160729T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160729T160000
-DESCRIPTION:\nContact: Michaela Tolman\nMichaela.tolman@gmail.com\n603-209
- -1920\n\nhttp://sackler.tufts.edu/Calendar/2016/07/29/Sackler-Relays.aspx
-LOCATION:(Ellis Oval\, Medford Campus) 20 Lower Campus Rd\, Somerville\, M
- A 02144
+SUMMARY:CMDB/DMCB Seminar - Malcolm Whitman\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160913T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160913T130000
+DESCRIPTION:Speaker(s): Malcolm Whitman\, PhD\nAffiliation: Harvard School
+  of Dental Medicine\n"TBA"\n\nContact: Anne Marie Brock\nanne_marie.brock@
+ tufts.edu\n617-636-0394\n\nhttp://sackler.tufts.edu/Calendar/2016/09/13/CM
+ DBDMCB-Seminar-Malcolm-Whitman.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160801T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160801T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/08/01/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
+SUMMARY:Gene\, Immuno\, Micro Seminar - Steven Munger\, "Defining the cons
+ equences of genetic variation on a proteome-wide scale"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160914T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160914T130000
+DESCRIPTION:Speaker(s): Steven Munger\, PhD\nAffiliation: The Jackson Labo
+ ratory\n"Defining the consequences of genetic variation on a proteome-wide
+  scale"\n\nhttp://sackler.tufts.edu/Calendar/2016/09/14/Gene-Immuno-Micro-
+ Seminar-Steven-Munger.aspx
+LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Building Diversity in Biomedical Sciences (BDBS) Symposium Poster 
- Public Viewing
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160804T143000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160804T160000
-DESCRIPTION:\nContact: Jessica Wang-Strykowski\njessica.wang_strykowski@tu
- fts.edu\n617-636-6767\n\nhttp://sackler.tufts.edu/Calendar/2016/08/04/Buil
- ding-Diversity-in-Biomedical-Sciences-BDBS-Symposium-Poster-Public-Viewing
+SUMMARY:Sackler GSC Fajita's and Rita's Happy Hour
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160915T173000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160915T193000
+DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/09/15/Sackler-GSC-Faj
+ itas-and-Ritas-Happy-Hour.aspx
+LOCATION: 25 West St\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Advocating for Science Symposium and Workshop
+DTSTART;VALUE=DATE:20160916
+DTEND;VALUE=DATE:20160917
+DESCRIPTION:\n<p>This is a two day event that focuses on helping participa
+ nts learn how to make a positive change to the scientific community\, and 
+ develop your leadership\, communication and advocacy skills. There will al
+ so be opportunities to discuss ongoing advocacy efforts to promote systemi
+ c changes within the scientific enterprise and how it is funded.\n</p><p>D
+ ay One - Friday September 16\, 4 pm to 8 pm</p><p>Keynote address: Rush Ho
+ lt\, former congressman and CEO of the American Association for the Advanc
+ ement of Science.</p><p>A reception and networking event will follow.</p><
+ p>Day Two - Saturday September 17\, 9am-6pm</p><p>Several workshops on col
+ lecting data effectively\, creating appealing visualization\, developing c
+ ommunication strategies\, and leadership will be run by experts in their r
+ espective fields.</p>\\pThe workshops will progress through the many aspec
+ ts of effectively advocating for change: from leading and motivating a gro
+ up\, collecting and using data effectively\, to creating and communicating
+  an unifying message to the appropriate audiences.<p>Spaces are limited fo
+ r the workshop and accordingly we ask that all participants attend the ent
+ ire day\, along with the Friday Symposium.</p>\n\nhttp://sackler.tufts.edu
+ /Calendar/2016/09/17/Advocating-for-Science-Symposium-and-Workshop.aspx
+LOCATION: 50 Vassar St\, Cambridge\, MA 02139
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Journal Club - Miriam Ramliden & Mengyun Zhang
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160919T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160919T130000
+DESCRIPTION:Speaker(s): Miriam Ramliden & Mengyun Zhang\n\nContact: Molly 
+ Kyle\nmolly.kyle@tufts.edu\n617-636-3451\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/09/19/Micro-Journal-Club-Miriam-Ramliden-Mengyun-Zhang.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111\, 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - EndNote: The Basics
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T100000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/09/20/Library-Workshop-EndNo
+ te-The-Basics.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB/DMCB Seminar - Ralph Isberg\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T130000
+DESCRIPTION:Speaker(s): Ralph Isberg\, PhD\nAffiliation: TBA\n"TBA"\n\nCon
+ tact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-3514\n\nht
+ tp://sackler.tufts.edu/Calendar/2016/09/20/CMDBDMCB-Seminar-Ralph-Isberg.a
+ spx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Thesis Defense - Brian Lin\, "Walk This Way: Stepping Backk a
+ long the Lineage Highway with Progenitor Cells of the Olfactory Epithelium
+ "
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T133000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T143000
+DESCRIPTION:Speaker(s): Brian Lin\nAffiliation: Schwob Lab\n"Walk This Way
+ : Stepping Backk along the Lineage Highway with Progenitor Cells of the Ol
+ factory Epithelium"\n\nhttp://sackler.tufts.edu/Calendar/2016/09/20/CMDB-T
+ hesis-Defense-Brian-Lin.aspx
+LOCATION:(Sackler 114) 136 Harrison Ave\, Boston\, MA  02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Tufts Career Panel
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T173000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T193000
+DESCRIPTION:\n<p>Join the Tufts PDA for an exciting career panel discussin
+ g the many careers available to PhDs!</p><p>This panel affords the unique 
+ perspective of recent graduates and those already with extensive work hist
+ ories. Come ask questions and network with those who have successfully mad
+ e the transition out of Academia.</p><p>Please note: this event will be vi
+ deo-conferenced via WebEx. To receive login instruction 24 hrs prior to th
+ e event\, please register for "WebEx only" ticket type.</p>\n\n<p>Join the
+  Tufts PDA for an exciting career panel discussing the many careers availa
+ ble to PhDs!</p><p>This panel affords the unique perspective of recent gra
+ duates and those already with extensive work histories. Come ask questions
+  and network with those who have successfully made the transition out of A
+ cademia.</p><p>Please note: this event will be video-conferenced via WebEx
+ . To receive login instruction 24 hrs prior to the event\, please register
+  for "WebEx only" ticket type.</p>\n\nContact: Tamara Reyes-Robles\nTamara
+ .Reyes_Robles@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/09/20/Tu
+ fts-Career-Panel.aspx
+LOCATION:(Sackler Room 114) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - EndNote: The Basics
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160921T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160921T170000
+DESCRIPTION:\n<p>This one-hour session will introduce you to the basics of
+  using the citation management program EndNote. EndNote allows you to crea
+ te a personal database of references and generate in-text citations and bi
+ bliographies in a variety of citation styles. This session is for beginner
+ s - no previous experience required!</p><a href="http://hirshlibrary.tufts
+ .edu/events">Register for this workshop.</a>\n\n<p>This one-hour session w
+ ill introduce you to the basics of using the citation management program E
+ ndNote. EndNote allows you to create a personal database of references and
+  generate in-text citations and bibliographies in a variety of citation st
+ yles. This session is for beginners - no previous experience required!</p>
+ <a href="http://hirshlibrary.tufts.edu/events">Register for this workshop.
+ </a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.edu\n\nhttp://sackler.
+ tufts.edu/Calendar/2016/09/21/Library-Workshop-EndNote-The-Basics.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Genetics Thesis Seminar - Marina Freytsis\, "TBD"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160922T130000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160922T140000
+DESCRIPTION:Speaker(s): Marina Freytsis\nAffiliation: Huggins Lab\n"TBD"\n
+ \nhttp://sackler.tufts.edu/Calendar/2016/09/22/Genetics-Thesis-Seminar-Mar
+ ina-Freytsis.aspx
+LOCATION:(Stearns Auditorium) 800 Washington Street\, Boston\, MA  02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Basic Personal Financial Management with Fidelity Investments
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160922T173000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160922T193000
+DESCRIPTION:\n<p>Join the Tufts PDA for an exciting seminar focused on per
+ sonal finance\, debt management and retirement planning for graduate stude
+ nts and postdocs.</p><p>This panel affords the unique perspective of an ex
+ perienced Fidelity Investiments representative. Come ask questions and lea
+ rn about the sevices that Fidelity offers Tufts postdocs.</p><p>Please not
+ e: this event will be video-conferenced via WebEx. To receive login instru
+ ctions 24 hrs prior to the event\, please register for "WebEx only" ticket
+  type.</p>\n\n<p>Join the Tufts PDA for an exciting seminar focused on per
+ sonal finance\, debt management and retirement planning for graduate stude
+ nts and postdocs.</p><p>This panel affords the unique perspective of an ex
+ perienced Fidelity Investiments representative. Come ask questions and lea
+ rn about the sevices that Fidelity offers Tufts postdocs.</p><p>Please not
+ e: this event will be video-conferenced via WebEx. To receive login instru
+ ctions 24 hrs prior to the event\, please register for "WebEx only" ticket
+  type.</p>\n\nContact: Tamara Reyes-Robles\nTamara.Reyes_Robles@tufts.edu\
+ n\nhttp://sackler.tufts.edu/Calendar/2016/09/22/Basic-Personal-Financial-M
+ anagement-with-Fidelity-Investments.aspx
+LOCATION:(Sackler Room 114) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Journal Club - Michelle Logsdon & Ila Anand\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160926T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160926T130000
+DESCRIPTION:Speaker(s): Michelle Logsdon & Ila Anand\n"TBA"\n\nContact: Mo
+ lly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/0
+ 9/26/Micro-Journal-Club-Michelle-Logsdon-Ila-Anand.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111\, 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - PubMed: The Basics
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T100000
+DESCRIPTION:\n<p>This workshop will introduce you to PubMed. We will revie
+ w the structure of this database\, planning and executing a search strateg
+ y\, narrowing search results\, finding full-text\, and exporting citations
+  into citation management programs such as EndNote.</p><a href="http://hir
+ shlibrary.tufts.edu/events">Register for this workshop.</a>\n\n<p>This wor
+ kshop will introduce you to PubMed. We will review the structure of this d
+ atabase\, planning and executing a search strategy\, narrowing search resu
+ lts\, finding full-text\, and exporting citations into citation management
+  programs such as EndNote.</p><a href="http://hirshlibrary.tufts.edu/event
+ s">Register for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlec
+ h@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/09/27/Library-Worksh
+ op-PubMed-The-Basics.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Thesis Defense - Mengqi Huang\, "TBD"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T103000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T113000
+DESCRIPTION:Speaker(s): Mengqi Huang\nAffiliation: Garlick Lab\n"TBD"\n\nh
+ ttp://sackler.tufts.edu/Calendar/2016/09/27/CMDB-Thesis-Defense-Mengqi-Hua
+ ng.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Adam Martin\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T130000
+DESCRIPTION:Speaker(s): Adam Martin\, PhD\nAffiliation: MIT\n"TBA"\n\nCont
+ act: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-3514\n\nhtt
+ p://sackler.tufts.edu/Calendar/2016/09/27/DMCBCMDB-Seminar-Adam-Martin.asp
+ x
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Research Report - Angela Howard\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T130000
+DESCRIPTION:Speaker(s): Angela Howard\nAffiliation: Munro Lab\n"TBA"\n\nCo
+ ntact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calend
+ ar/2016/09/27/Micro-Research-Report-Angela-Howard.aspx
+LOCATION:(Room M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111\, 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Stakeholder Engagement in Patient-Centered Comparative Effectivene
+ ss Research\, "Stakeholder Engagement in Patient-Centered Comparative Effe
+ ctiveness Research"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160928T093000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160928T110000
+DESCRIPTION:Speaker(s): Thomas Concannon\, PhD\nAffiliation: Tufts CTSI\n"
+ Stakeholder Engagement in Patient-Centered Comparative Effectiveness Resea
+ rch"\n\n<p>What is stakeholder and community engagement (SCE)\, and why is
+  it important? Learn the benefits\, strategies\, and methods at Stakeholde
+ r Engagement in Patient-Centered Comparative Effectiveness Research.</p><p
+ >This seminar\, taught by Thomas Concannon\, PhD\, Tufts CTSI’s Director
+  of Stakeholder and Community Engagement and Assistant Director of Compara
+ tive Effectiveness Research\, will review previous patient-centered studie
+ s and assess the strengths and weaknesses of their engagement efforts\, an
+ d their impact on research outcomes.</p><p>A live webcast will also be ava
+ ilable.</p>\n\n<p>What is stakeholder and community engagement (SCE)\, and
+  why is it important? Learn the benefits\, strategies\, and methods at Sta
+ keholder Engagement in Patient-Centered Comparative Effectiveness Research
+ .</p><p>This seminar\, taught by Thomas Concannon\, PhD\, Tufts CTSI’s D
+ irector of Stakeholder and Community Engagement and Assistant Director of 
+ Comparative Effectiveness Research\, will review previous patient-centered
+  studies and assess the strengths and weaknesses of their engagement effor
+ ts\, and their impact on research outcomes.</p><p>A live webcast will also
+  be available.</p>\n\nContact: info@tuftsctsi.org\n\nhttp://sackler.tufts.
+ edu/Calendar/2016/09/28/Stakeholder-Engagement-in-PatientCentered-Comparat
+ ive-Effectiveness-Research.aspx
+LOCATION:(Sackler 114 East) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - PubMed: The Basics
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160928T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160928T170000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/09/28/Library-Workshop-PubMe
+ d-The-Basics.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Thesis Defense: Heidi Burke\, "A Sugar Shield and a Decoy\; 
+ How Cytomegalovirus gB Modulates Antibody Response"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160930T113000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160930T123000
+DESCRIPTION:Speaker(s): Heidi Burke\nAffiliation: Heldwein Lab\n"A Sugar S
+ hield and a Decoy\; How Cytomegalovirus gB Modulates Antibody Response"\n\
+ nContact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Cal
+ endar/2016/09/30/Micro-Thesis-Defense-Heidi-Burke.aspx
+LOCATION:(Behrakis Auditorium) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Brent Cochran\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161004T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161004T130000
+DESCRIPTION:Speaker(s): Brent Cochran\, PhD\nAffiliation: Tufts University
+ \n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-
+ 636-3514\n\nhttp://sackler.tufts.edu/Calendar/2016/10/04/DMCBCMDB-Seminar-
+ Brent-Cochran.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Developing Your Specific Aims: A Writing Workshop for Researchers
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161005T093000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161005T230000
+DESCRIPTION:\nContact: info@tuftsctsi.org\n\nhttp://sackler.tufts.edu/Cale
+ ndar/2016/10/05/Developing-Your-Specific-Aims-A-Writing-Workshop-for-Resea
+ rchers.aspx
+LOCATION:(8th floor conference room) 35 Kneeland Street\, Boston\, MA 0211
+ 1
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:POGIL Workshop
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161006T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161006T170000
+DESCRIPTION:Speaker(s): Chris Bauer\nAffiliation: University of New Hampsh
+ ire\n\n<p>POGIL\, process-oriented guided inquiry learning\, is a data-sup
+ ported pedagogical method\nthat uses a learning cycle of exploration\, con
+ cept invention and application to help students construct their own knowle
+ dge. Come learn how to implement this proven active learning technique!</p
+ ><p>Registration is required for this workshop.</p><p>Contact Katherine Ma
+ ttaini <a class="noborder" href="mailto:katherine.mattaini@tufts.edu?subje
+ ct=POGIL Workshop Registration"><img alt="Send an e-mail" class="noborder"
+  height="16" src="/~/media/Sackler/Page Images/Icons/Email Icon.png?h=16&a
+ mp\;w=16" style="height: 16px\; width: 16px\;" width="16"/></a></p>\n\n<p>
+ POGIL\, process-oriented guided inquiry learning\, is a data-supported ped
+ agogical method\nthat uses a learning cycle of exploration\, concept inven
+ tion and application to help students construct their own knowledge. Come 
+ learn how to implement this proven active learning technique!</p><p>Regist
+ ration is required for this workshop.</p><p>Contact Katherine Mattaini <a 
+ class="noborder" href="mailto:katherine.mattaini@tufts.edu?subject=POGIL W
+ orkshop Registration"><img alt="Send an e-mail" class="noborder" height="1
+ 6" src="/~/media/Sackler/Page Images/Icons/Email Icon.png?h=16&amp\;w=16" 
+ style="height: 16px\; width: 16px\;" width="16"/></a></p>\n\nContact: Kati
+ e Mattaini\nkatherine.mattaini@tufts.edu\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/10/06/POGIL-Workshop.aspx
+LOCATION:(Biomedical Research & Public Health Building\, M&V\; Wing\, Room
+  402) 136 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Peter Juo\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161011T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161011T130000
+DESCRIPTION:Speaker(s): Peter Juo\, PhD\nAffiliation: Tufts University\n"T
+ BA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-
+ 3514\n\nhttp://sackler.tufts.edu/Calendar/2016/10/11/DMCBCMDB-Seminar-Pete
+ r-Juo.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Research Report - Tanja Petnicki Ocwieja\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161011T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161011T130000
+DESCRIPTION:Speaker(s): Tanja Petnicki Ocwieja\nAffiliation: L Hu Lab\n"TB
+ A"\n\nContact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.ed
+ u/Calendar/2016/10/11/Micro-Research-Report-Tanja-Petnicki-Ocwieja.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111\, 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Thesis Defense: Minmin Yen\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161013T130000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161013T140000
+DESCRIPTION:Speaker(s): Minmin Yen\nAffiliation: Camilli Lab\n"TBA"\n\nCon
+ tact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calenda
+ r/2016/10/13/Micro-Thesis-Defense-Minmin-Yen.aspx
+LOCATION:(Deblois Auditorium) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Administrative Careers in Academia (and How to Get Them)\, "Admini
+ strative Careers in Academia (and How to Get Them)"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161013T170000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161013T180000
+DESCRIPTION:Speaker(s): Nathan Vanderford\, PhD\, MBA\n"Administrative Car
+ eers in Academia (and How to Get Them)"\n\nContact: Tamara Reyes-Robles\nT
+ amara.Reyes_Robles@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/10/
+ 13/Administrative-Careers-in-Academia-and-How-to-Get-Them.aspx
+LOCATION:(Sackler 216B) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - Data Management Essentials
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161018T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161018T100000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/10/18/Library-Workshop-Data-
+ Management-Essentials.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Research Report - Walter Adams\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161018T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161018T130000
+DESCRIPTION:Speaker(s): Walter Adams\nAffiliation: Leong Lab\n"TBA"\n\nCon
+ tact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calenda
+ r/2016/10/18/Micro-Research-Report-Walter-Adams.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111\, \, 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Catherine Collins\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161018T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161018T130000
+DESCRIPTION:Speaker(s): Catherine Collins\, PhD\nAffiliation: University o
+ f Michigan \n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft
+ s.edu\n617-636-3514\n\nhttp://sackler.tufts.edu/Calendar/2016/10/18/DMCBCM
+ DB-Seminar-Catherine-Collins.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - Data Management Essentials
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161019T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161019T170000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/10/19/Library-Workshop-Data-
+ Management-Essentials.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Journal Club - Louis Cornacchione & Andrea Koenigsberg\, "TB
+ A"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161024T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161024T130000
+DESCRIPTION:Speaker(s): Louis Cornacchione & Andrea Koenigsberg\n"TBA"\n\n
+ Contact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Cale
+ ndar/2016/10/24/Micro-Journal-Club-Louis-Cornacchione-Andrea-Koenigsberg.a
+ spx
+LOCATION:(Rm M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Seminar - Caroline Genco\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161026T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161026T130000
+DESCRIPTION:Speaker(s): Caroline Genco\, PhD\nAffiliation: IPP\n"TBA"\n\nC
+ ontact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/10/26/Micro-Seminar-Caroline-Genco.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - Using Images
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161101T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161101T100000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/11/01/Library-Workshop-Using
+ -Images.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar - Johannes Walter\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161101T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161101T130000
+DESCRIPTION:Speaker(s): Johannes Walter\, PhD\nAffiliation: Harvard Medica
+ l\n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617
+ -636-3514\n\nhttp://sackler.tufts.edu/Calendar/2016/11/01/DMCBCMDB-Seminar
+ -Johannes-Walter.aspx
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - Using Images
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161102T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161102T170000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/11/02/Library-Workshop-Using
+ -Images.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Journal Club - Lauren Shull & Kelsey Barrasso\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161107T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161107T130000
+DESCRIPTION:Speaker(s): Lauren Shull & Kelsey Barrasso\n"TBA"\n\nContact: 
+ Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016
+ /11/07/Micro-Journal-Club-Lauren-Shull-Kelsey-Barrasso.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - PubMed: Advanced
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161108T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161108T100000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/11/08/Library-Workshop-PubMe
+ d-Advanced.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Research Report - Ellen White\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161108T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161108T130000
+DESCRIPTION:Speaker(s): Ellen White\nAffiliation: Heldwein Lab\n"TBA"\n\nC
+ ontact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/11/08/Micro-Research-Report-Ellen-White.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111\, 
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro - Genetics - Immuno Seminar - Robert Abramovitch\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161109T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161109T130000
+DESCRIPTION:Speaker(s): Robert Abramovitch\, PhD\nAffiliation: Michigan St
+ ate University\n"TBA"\n\nContact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp
+ ://sackler.tufts.edu/Calendar/2016/11/09/Micro-Genetics-Immuno-Seminar-Rob
+ ert-Abramovitch.aspx
+LOCATION:(Room M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - PubMed: Advanced
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161109T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161109T170000
+DESCRIPTION:\n<p>In this workshop\, you will learned advanced techniques f
+ or searching PubMed\, which will help you get more precise results.</p><a 
+ href="http://hirshlibrary.tufts.edu/events">Register for this workshop.</a
+ >\n\n<p>In this workshop\, you will learned advanced techniques for search
+ ing PubMed\, which will help you get more precise results.</p><a href="htt
+ p://hirshlibrary.tufts.edu/events">Register for this workshop.</a>\n\nCont
+ act: Laura Pavlech\nlaura.pavlech@tufts.edu\n\nhttp://sackler.tufts.edu/Ca
+ lendar/2016/11/09/Library-Workshop-PubMed-Advanced.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Micro Research Report - Murat Cokol\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161114T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161114T130000
+DESCRIPTION:Speaker(s): Murat Cokol\nAffiliation: Aldridge Lab\n"TBA"\n\nC
+ ontact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/11/14/Micro-Research-Report-Murat-Cokol.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Library Workshop - EndNote: Advanced
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161115T090000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161115T100000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/11/15/Library-Workshop-EndNo
+ te-Advanced.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:DMCB/CMDB Seminar-Dan Jay\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161115T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161115T130000
+DESCRIPTION:Speaker(s): Dan Jay\, PhD\nAffiliation: Tufts University\n"TBA
+ "\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-35
+ 14\n\nhttp://sackler.tufts.edu/Calendar/2016/11/15/DMCBCMDB-SeminarDan-Jay
  .aspx
-LOCATION:(Sackler 114) 145 Harrison Avenue\, Boston\, MA 02111
+LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:TBBC Case Competition - TUNECC
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160805T083000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160805T190000
-DESCRIPTION:\n<p>The Tufts Biomedical Business Club is pleased to announce
-  3rd annual Tufts New England Case Competition (TUNECC) on August 5th\, 20
- 16. TUNECC is focused on structured problem solving for the global life sc
- iences industry\, including pharmaceuticals\, biotechnology\, medical devi
- ces\, and vaccines/diagnostics.\nWe welcome applications from Advanced Deg
- ree Candidates (PhD\, MD\, JD\, Postdoc\, and non-MBA Masters) from  the N
- ortheast who are interested in joining a  life sciences consulting firm or
-  a generalist firm with a strong life sciences practice. Applications are 
- open from June1 - July 1.</p><p>The Case Competition: 25 teams of 4-5 memb
- ers will present solutions to a life sciences business problem. Solutions 
- will be judged by consultants from leading consulting and venture capital 
- firms. You may assemble a 4-5 member team or enter as an individual. Pleas
- e note that preference is given to team applications.</p><p>Awards:<br/>\n
- 1st Prize: $2\,000<br/>\n2nd Prize: $1\,000<br/>\n3rd Prize: $500</p><p>Fo
- r more information and/or to submit your application from June 1 - July 1\
- , 2016\, please visit our website: <a href="http://tunecc.tufts.edu" targe
- t="_blank" title="TUNECC website">http://tunecc.tufts.edu</a>.</p><p>If yo
- u have any questions\, please contact tunecc2014@gmail.com.</p><p>Sponsors
- :  The Boston Consulting Group\, McKinsey and Company\, Back Bay Life Scie
- nce Advisors\, TechAtlas Group\, Simon-Kucher &amp\; Partners\, L.E.K Cons
- ulting\, Putnam Associates\, Decision Resources Group\, Clarion Healthcare
-  LLC.\, and ClearView Healthcare Partners</p>\n\nhttp://sackler.tufts.edu/
- Calendar/2016/08/05/TBBC-Case-Competition-TUNECC.aspx
-LOCATION: 145 Harrison Ave\, Boston\, MA 02111
+SUMMARY:Micro Research Report - Meghan Ramsey\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161115T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161115T130000
+DESCRIPTION:Speaker(s): Meghan Ramsey\nAffiliation: L Hu Lab\n"TBA"\n\nCon
+ tact: Molly Kyle\nmolly.kyle@tufts.edu\n\nhttp://sackler.tufts.edu/Calenda
+ r/2016/11/15/Micro-Research-Report-Meghan-Ramsey.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160808T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160808T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/08/08/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) 150 Harrison Avenue\, Boston\, MA 02111\
- , 
+SUMMARY:Library Workshop - EndNote: Advanced
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161116T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161116T170000
+DESCRIPTION:\n<a href="http://hirshlibrary.tufts.edu/events">Register for 
+ this workshop.</a>\n\n<a href="http://hirshlibrary.tufts.edu/events">Regis
+ ter for this workshop.</a>\n\nContact: Laura Pavlech\nlaura.pavlech@tufts.
+ edu\n\nhttp://sackler.tufts.edu/Calendar/2016/11/16/Library-Workshop-EndNo
+ te-Advanced.aspx
+LOCATION:(Sackler 510) 145 Harrison Avenue\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160815T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160815T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/08/15/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) 150 Harrison Avenue\, Boston\, MA 02111\
- , 
+SUMMARY:Preparing Future Professionals: A Work Readiness Course for PhDs a
+ t the University of Kentucky\, "Preparing Future Professionals: A Work Rea
+ diness Course for PhDs at the University of Kentucky"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161117T170000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161117T180000
+DESCRIPTION:Speaker(s): Nathan Vanderford\, PhD\, MBA\n"Preparing Future P
+ rofessionals: A Work Readiness Course for PhDs at the University of Kentuc
+ ky"\n\nContact: Tamara Reyes-Robles\nTamara.Reyes_Robles@tufts.edu\n\nhttp
+ ://sackler.tufts.edu/Calendar/2016/11/17/Preparing-Future-Professionals-A-
+ Work-Readiness-Course-for-PhDs-at-the-University-of-Kentucky.aspx
+LOCATION:(Jaharis 508) 150 Harrison Avenue\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160822T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160822T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/08/22/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:Sackler Running Club
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160829T180000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160829T190000
-DESCRIPTION:\nhttp://sackler.tufts.edu/Calendar/2016/08/29/Sackler-Running
- -Club.aspx
-LOCATION:(Jaharis Cafe/Courtyard) \, 150 Harrison Avenue\, Boston\, MA 021
- 11\, 
+SUMMARY:Micro Seminar - Aimee Shen\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161129T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161129T130000
+DESCRIPTION:Speaker(s): Aimee Shen\n"TBA"\n\nContact: Molly Kyle\nmolly.ky
+ le@tufts.edu\n\nhttp://sackler.tufts.edu/Calendar/2016/11/29/Micro-Seminar
+ -Aimee-Shen.aspx
+LOCATION:(M&V\; 412) 136 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
 SUMMARY:Charlton Poster Competition - Public Viewing
@@ -422,5 +650,16 @@ DESCRIPTION:Speaker(s): Tyler Jacks\, PhD\nAffiliation: Massachusetts Inst
  kowski@tufts.edu\n617-636-6767\n\nhttp://sackler.tufts.edu/Calendar/2016/1
  1/30/Charlton-Lecture-Tyler-Jacks.aspx
 LOCATION:(Sackler DeBlois Auditorium) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:Joanne Kamens - Thoughts on Leadership and Management\, "Thoughts 
+ on Leadership and Management"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161212T173000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161212T183000
+DESCRIPTION:Speaker(s): Joanne Kamens\, PhD\nAffiliation: Addgene Executiv
+ e Director\n"Thoughts on Leadership and Management"\n\nContact: Tamara Rey
+ es-Robles\nTamara.Reyes_Robles@tufts.edu\n\nhttp://sackler.tufts.edu/Calen
+ dar/2016/12/12/Joanne-Kamens-Thoughts-on-Leadership-and-Management.aspx
+LOCATION:(Sackler 114) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 END:VCALENDAR
