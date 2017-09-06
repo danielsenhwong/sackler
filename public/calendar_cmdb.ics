@@ -14,104 +14,132 @@ X-WR-CALDESC:This is the iCal-formatted version of the calendarpresented o
 X-WR-CALNAME:CMDB Calendar
 X-WR-TIMEZONE:America/New_York
 BEGIN:VEVENT
-SUMMARY:CMDB/DMCB Seminar - Malcolm Whitman\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160913T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160913T130000
-DESCRIPTION:Speaker(s): Malcolm Whitman\, PhD\nAffiliation: Harvard School
-  of Dental Medicine\n"TBA"\n\nContact: Anne Marie Brock\nanne_marie.brock@
- tufts.edu\n617-636-0394\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome
- /CMDB-Calendar/2016/09/13/CMDBDMCB-Seminar-Malcolm-Whitman.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+SUMMARY:CMDB Seminar - James DeCaprio
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20170912T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20170912T130000
+DESCRIPTION:Speaker(s): James DeCaprio A\, MD\nAffiliation:  Harvard Unive
+ rsity\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636
+ -3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/201
+ 7/09/12/CMDB-Seminar-James-DeCaprio.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMDB/DMCB Seminar - Ralph Isberg\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T130000
-DESCRIPTION:Speaker(s): Ralph Isberg\, PhD\nAffiliation: TBA\n"TBA"\n\nCon
- tact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-3514\n\nht
- tp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/09/20/CMD
- BDMCB-Seminar-Ralph-Isberg.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+SUMMARY:CMDB Seminar - Erin Cram
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20170919T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20170919T130000
+DESCRIPTION:Speaker(s): Erin Cram\, PhD\nAffiliation: Northeastern Univers
+ ity\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636-3
+ 514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017/
+ 09/19/CMDB-Seminar-Erin-Cram.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMDB Thesis Defense - Brian Lin\, "Walk This Way: Stepping Backk a
- long the Lineage Highway with Progenitor Cells of the Olfactory Epithelium
- "
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160920T133000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160920T143000
-DESCRIPTION:Speaker(s): Brian Lin\nAffiliation: Schwob Lab\n"Walk This Way
- : Stepping Backk along the Lineage Highway with Progenitor Cells of the Ol
- factory Epithelium"\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMD
- B-Calendar/2016/09/20/CMDB-Thesis-Defense-Brian-Lin.aspx
-LOCATION:(Sackler 114) 136 Harrison Ave\, Boston\, MA  02111
+SUMMARY:CMDB Seminar - Madeleine Oudin
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20170926T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20170926T130000
+DESCRIPTION:Speaker(s): Madeleine Oudin\, PhD.\nAffiliation: MIT\n\nContac
+ t: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636-3514\n\nhttp:/
+ /sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017/09/26/CMDB-Se
+ minar-Madeleine-Oudin.aspx
+LOCATION:(Jaharis 508) \, 145 Harrison Ave\, Boston\, MA
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:CMDB Thesis Defense - Mengqi Huang\, "TBD"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T103000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T113000
-DESCRIPTION:Speaker(s): Mengqi Huang\nAffiliation: Garlick Lab\n"TBD"\n\nh
- ttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/09/27/CM
- DB-Thesis-Defense-Mengqi-Huang.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA  02111
+SUMMARY:Gehardt Schmidt Memorial Lecture - Judith Campisi\, "TBA"
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20170927T160000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20170927T170000
+DESCRIPTION:Speaker(s): Judith Campisi\nAffiliation: Buck Institute\n"TBA"
+ \n\nContact: Hilary Zaprazynski\nhilary.zaprazynski@tufts.edu\n617-636-351
+ 4\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017/09
+ /27/Gehardt-Schmidt-Memorial-Lecture-Judith-Campisi.aspx
+LOCATION:(Behrakis Auditorium) 150 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DMCB/CMDB Seminar - Adam Martin\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160927T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160927T130000
-DESCRIPTION:Speaker(s): Adam Martin\, PhD\nAffiliation: MIT\n"TBA"\n\nCont
- act: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-3514\n\nhtt
- p://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/09/27/DMCB
- CMDB-Seminar-Adam-Martin.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+SUMMARY:CMDB Seminar -  Natasa Miskov
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171003T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171003T130000
+DESCRIPTION:Speaker(s): Natasa Miskov\nAffiliation: Zivanov\n\nContact: Hi
+ lary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636-3514\n\nhttp://sack
+ ler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017/10/03/CMDB-Seminar
+ --Natasa-Miskov.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DMCB/CMDB Seminar - Brent Cochran\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161004T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161004T130000
-DESCRIPTION:Speaker(s): Brent Cochran\, PhD\nAffiliation: Tufts University
- \n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-
- 636-3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/
- 2016/10/04/DMCBCMDB-Seminar-Brent-Cochran.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DMCB/CMDB Seminar - Peter Juo\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161011T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161011T130000
-DESCRIPTION:Speaker(s): Peter Juo\, PhD\nAffiliation: Tufts University\n"T
- BA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-
- 3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016
- /10/11/DMCBCMDB-Seminar-Peter-Juo.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DMCB/CMDB Seminar - Catherine Collins\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161018T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161018T130000
-DESCRIPTION:Speaker(s): Catherine Collins\, PhD\nAffiliation: University o
- f Michigan \n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft
- s.edu\n617-636-3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMD
- B-Calendar/2016/10/18/DMCBCMDB-Seminar-Catherine-Collins.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
-END:VEVENT
-BEGIN:VEVENT
-SUMMARY:DMCB/CMDB Seminar - Johannes Walter\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161101T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161101T130000
-DESCRIPTION:Speaker(s): Johannes Walter\, PhD\nAffiliation: Harvard Medica
- l\n"TBA"\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617
+SUMMARY:CMDB Seminar - Joseph Ziegelbauer
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171010T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171010T130000
+DESCRIPTION:Speaker(s): Joseph Ziegelbauer\nAffiliation: National Cancer I
+ nstitute \n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617
  -636-3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar
- /2016/11/01/DMCBCMDB-Seminar-Johannes-Walter.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+ /2017/10/10/CMDB-Seminar-Joseph-Ziegelbauer.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 BEGIN:VEVENT
-SUMMARY:DMCB/CMDB Seminar-Dan Jay\, "TBA"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20161115T120000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20161115T130000
-DESCRIPTION:Speaker(s): Dan Jay\, PhD\nAffiliation: Tufts University\n"TBA
- "\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tufts.edu\n617-636-35
- 14\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2016/1
- 1/15/DMCBCMDB-SeminarDan-Jay.aspx
-LOCATION:(Jaharis 508) 150 Harrison Ave\, Boston\, MA 02111
+SUMMARY:CMDB Seminar - Pilar Alcaide
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171017T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171017T130000
+DESCRIPTION:Speaker(s): Pilar Alcaide\, PhD\n\nContact: Hilary Zaparzynski
+ \nhilary.zaparzynski@tuft.edu\n617-636-3514\n\nhttp://sackler.tufts.edu/Ac
+ ademics/CMDB-Welcome/CMDB-Calendar/2017/10/17/CMDB-Seminar-Pilar-Alcaide.a
+ spx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Seminar - Timothy Hla
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171031T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171031T130000
+DESCRIPTION:Speaker(s): Timothy Hla\, PhD\nAffiliation: Harvard Medical Sc
+ hool\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636-
+ 3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017
+ /10/31/CMDB-Seminar-Timothy-Hla.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Seminar - Ann Marie Schmidt
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171107T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171107T130000
+DESCRIPTION:Speaker(s): Ann Marie Schmidt\nAffiliation: NYU School of Medi
+ cine\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636-
+ 3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017
+ /11/07/CMDB-Seminar-Ann-Marie-Schmidt.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Seminar - Victor Hatini
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171114T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171114T130000
+DESCRIPTION:Speaker(s): Victor Hatini\, PhD\nAffiliation: Tufts University
+ \n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636-3514
+ \n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017/11/
+ 14/CMDB-Seminar-Victor-Hatini.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Seminar - Patricia Kane
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171121T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171121T130000
+DESCRIPTION:Speaker(s): Patricia Kane\nAffiliation: SUNY Upstate Medical U
+ niversity\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar
+ /2017/11/21/CMDB-Seminar-Patricia-Kane.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Seminar - Daniel Nomura
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171128T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171128T130000
+DESCRIPTION:Speaker(s): Daniel K. Nomura\, PhD\nAffiliation: U. of Califor
+ nia\, Berkeley\n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu
+ \n617-636-3514\n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Cal
+ endar/2017/11/28/CMDB-Seminar-Daniel-Nomura.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
+END:VEVENT
+BEGIN:VEVENT
+SUMMARY:CMDB Seminar - Joshua Tam
+DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20171205T120000
+DTEND;TZID=America/New_York;VALUE=DATE-TIME:20171205T130000
+DESCRIPTION:Speaker(s): Joshua Tam\, PhD\nAffiliation: Harvard University\
+ n\nContact: Hilary Zaparzynski\nhilary.zaparzynski@tuft.edu\n617-636-3514\
+ n\nhttp://sackler.tufts.edu/Academics/CMDB-Welcome/CMDB-Calendar/2017/12/0
+ 5/CMDB-Seminar-Joshua-Tam.aspx
+LOCATION:(Jaharis 508) 145 Harrison Ave\, Boston\, MA 02111
 END:VEVENT
 END:VCALENDAR

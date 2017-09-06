@@ -14,13 +14,4 @@ X-WR-CALDESC:This is the iCal-formatted version of the calendarpresented o
  ns\, suggestions\, or requests to me directly.
 X-WR-CALNAME:Genetics Calendar
 X-WR-TIMEZONE:America/New_York
-BEGIN:VEVENT
-SUMMARY:Genetics Thesis Seminar - Marina Freytsis\, "TBD"
-DTSTART;TZID=America/New_York;VALUE=DATE-TIME:20160922T130000
-DTEND;TZID=America/New_York;VALUE=DATE-TIME:20160922T140000
-DESCRIPTION:Speaker(s): Marina Freytsis\nAffiliation: Huggins Lab\n"TBD"\n
- \nhttp://sackler.tufts.edu/Academics/Genetics-Welcome/Genetics-Calendar/20
- 16/09/22/Genetics-Thesis-Seminar-Marina-Freytsis.aspx
-LOCATION:(Stearns Auditorium) 800 Washington Street\, Boston\, MA  02111
-END:VEVENT
 END:VCALENDAR
