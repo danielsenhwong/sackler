@@ -203,22 +203,16 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
                 break
 
         # Break up the time string to find the end time
-        end_str = event['summary'].split(';')
+        end_str = event['summary'].split(';')[1].split('<br />')
 
         try: # Events starting and ending on the same day have one format
-            end_dt = strptime(end_str[1], ' %I:%M %p<br />')
+            end_dt = strptime(end_str[0], ' %I:%M %p')
             # Date information is missing, so borrow from start
             dtend = datetime(start_dt[0], start_dt[1], \
                     start_dt[2], *end_dt[3:5], tzinfo=tz_et)
         except ValueError: # Events spanning multiple days have another
-            try: # Events spanning multiple days or having additional info have another format
-                end_dt = strptime(end_str[1], '<br /> %B %d, %Y %I:%M %p<br />')
-                dtend = datetime(*end_dt[:6], tzinfo=tz_et) # Has its own date
-            except ValueError: # event has additional info in RSS feed, not typical
-                end_dt_str = end_str[1].split('<br />')
-                end_dt = strptime(end_dt_str[0], ' %I:%M %p')
-                dtend = datetime(start_dt[0], start_dt[1], \
-                        start_dt[2], *end_dt[3:5], tzinfo=tz_et)
+            end_dt = strptime(end_str[1], ' %B %d, %Y %I:%M %p')
+            dtend = datetime(*end_dt[:6], tzinfo=tz_et) # Has its own date
         except IndexError: # Events without an end time or date have another
             dtend = None # Has nothing
 
