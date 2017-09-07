@@ -2,3 +2,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
+p {
+    display: inline-block;
+}
