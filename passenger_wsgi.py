@@ -3,6 +3,7 @@
 Provides support to run sackler as a Passenger application.
 """
 from flask import Flask, Response, render_template
+import os
 from sackler import read_rss
 application = Flask(__name__)
 
@@ -11,6 +12,18 @@ application = Flask(__name__)
 #	v = sys.version_info
 #	str = 'hello world from %d.%d.%d!\n' % (v.major, v.minor, v.micro)
 #	return [bytes(str, 'UTF-8')]
+
+@application.template_filter(name='autoversion')
+def autoversion_filter(filename):
+    # From https://ana-balica.github.io/2014/02/01/autoversioning-static-assets-in-flask/
+    # determining fullpath might be project specific
+    fullpath = os.path.join('', filename[1:])
+    try:
+        timestamp = str(os.path.getmtime(fullpath))
+    except OSError:
+        return filename
+    newfilename = "{0}?v={1}".format(filename, timestamp)
+    return newfilename
 
 @application.route("/")
 def index():
