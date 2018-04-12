@@ -365,12 +365,12 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
         # Populate the event item
         #####
         # add DTSTAMP property
-        e_tmp.add('dtstamp', vDatetime(datetime.now(timezone('America/New_York'))).to_ical())
+        e_tmp.add('dtstamp', datetime.now(timezone('America/New_York')))
         e_tmp.add('uid', event_uid)
-        e_tmp.add('dtstart', vDatetime(dtstart).to_ical()) # Add the start time to the Event() object
+        e_tmp.add('dtstart', dtstart) # Add the start time to the Event() object
         if dtend:
             # Give the event an end date and time if there is anything to add
-            e_tmp.add('dtend', vDatetime(dtend).to_ical())
+            e_tmp.add('dtend', dtend)
         e_tmp.add('summary', summary_str) # Give the event a title
         # Put the event page URL in the description of the event
         e_tmp.add('description', '%s%s' % (description, event['link']))
