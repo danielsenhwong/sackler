@@ -26,7 +26,7 @@ from time import strptime # Date/time formatting
 import re # Regular expression for search
 import feedparser # Parse RSS feed
 import requests # Grab HTML
-from bs4 import BeautifulSoup # Process HTML
+from bs4 import BeautifulSoup, SoupStrainer # Process HTML
 from icalendar import Calendar, Event, vDatetime # Make iCal
 from pytz import timezone # Timezone info for iCal
 
@@ -217,11 +217,6 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
         except IndexError: # Events without an end time or date have another
             dtend = None # Has nothing
             
-        # Grab the UID for this event
-        # UID is encoded between curly braces in URL for event, presented as 'base' element in 'title_detail'
-        event_uid_src = event['title_detail']['base']
-        event_uid = re.split('[{}]', event_uid_src)[1]
-
         #####
         # Read event details from event-specific page
         #####
@@ -238,6 +233,15 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
             # Find the event-group divs
             e_group = vevent.find_all(class_='event-group')
 
+            #####
+            # Event UID
+            #####
+            # Grab the UID for this event
+            # UID is encoded between curly braces in correction URL for the event
+            uid_src = vevent.select("a#main_0_content_0_correction")[0]['href']
+            event_uid = re.split('[{}]', uid_src)[1]
+            
+            
             #####
             # Event speaker
             #####
@@ -365,7 +369,7 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
         # Populate the event item
         #####
         # add DTSTAMP property
-        e_tmp.add('dtstamp', datetime.now(timezone('America/New_York')))
+        e_tmp.add('dtstamp', datetime.now(tz_et)
         e_tmp.add('uid', event_uid)
         e_tmp.add('dtstart', dtstart) # Add the start time to the Event() object
         if dtend:
