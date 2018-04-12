@@ -27,7 +27,7 @@ import re # Regular expression for search
 import feedparser # Parse RSS feed
 import requests # Grab HTML
 from bs4 import BeautifulSoup # Process HTML
-from icalendar import Calendar, Event # Make iCal
+from icalendar import Calendar, Event, vDatetime # Make iCal
 from pytz import timezone # Timezone info for iCal
 
 # Define some global variables
@@ -147,6 +147,7 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
                         + ', parsed (Daniel Senh Wong)//sackler.tufts.edu//EN',
         'version':      '2.0', # Must be 2.0 per iCal standard
         'calscale':     'GREGORIAN',
+        'charset':      'UTF-8',
         'method':       'PUBLISH',
         'x-wr-calname': cal_name,
         'x-wr-timezone': 'America/New_York',
@@ -215,6 +216,11 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
             dtend = datetime(*end_dt[:6], tzinfo=tz_et) # Has its own date
         except IndexError: # Events without an end time or date have another
             dtend = None # Has nothing
+            
+        # Grab the UID for this event
+        # UID is encoded between curly braces in URL for event, presented as 'base' element in 'title_detail'
+        event_uid_src = event['title_detail']['base']
+        event_uid = re.split('[{}]', event_uid_src)[1]
 
         #####
         # Read event details from event-specific page
@@ -358,10 +364,13 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
         #####
         # Populate the event item
         #####
-        e_tmp.add('dtstart', dtstart) # Add the start time to the Event() object
+        # add DTSTAMP property
+        e_tmp.add('dtstamp', vDatetime(datetime.now()))
+        e_tmp.add('uid', event_uid)
+        e_tmp.add('dtstart', vDatetime(dtstart)) # Add the start time to the Event() object
         if dtend:
             # Give the event an end date and time if there is anything to add
-            e_tmp.add('dtend', dtend)
+            e_tmp.add('dtend', vDatetime(dtend))
         e_tmp.add('summary', summary_str) # Give the event a title
         # Put the event page URL in the description of the event
         e_tmp.add('description', '%s%s' % (description, event['link']))
