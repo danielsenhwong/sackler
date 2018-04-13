@@ -370,7 +370,7 @@ def read_rss(calendar="sackler", output_path="/var/www/sackler/public"):
         #####
         # add DTSTAMP property
         e_tmp.add('uid', event_uid)
-        e_tmp.add('dtstamp', datetime.now(tz_et))
+        e_tmp.add('dtstamp', datetime.now(timezone('America/New_York'))
         e_tmp.add('dtstart', dtstart) # Add the start time to the Event() object
         if dtend:
             # Give the event an end date and time if there is anything to add
